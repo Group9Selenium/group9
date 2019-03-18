@@ -21,7 +21,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("/Users/mrahman/develop/pnt/Web-AutomationJan2019/Generic/src/secret.properties");
+        InputStream ism = new FileInputStream("/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Generic/src/main/secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -39,18 +39,18 @@ public class ConnectToSqlDB {
         return connect;
     }
 
-    public List<String> readDataBase(String tableName, String columnName)throws Exception{
+    public static List<String> readDataBase(String tableName, String columnName)throws Exception{
         List<String> data = new ArrayList<String>();
 
         try {
             connectToSqlDatabase();
             statement = connect.createStatement();
             resultSet = statement.executeQuery("select * from " + tableName);
-            data = getResultSetData(resultSet, columnName);
+            data =  getResultSetData(resultSet, columnName);
         } catch (ClassNotFoundException e) {
             throw e;
         }finally{
-            close();
+
         }
         return data;
     }
@@ -71,10 +71,10 @@ public class ConnectToSqlDB {
         }
     }
 
-    private List<String> getResultSetData(ResultSet resultSet2, String columnName) throws SQLException {
+    private static List<String> getResultSetData(ResultSet resultSet2, String columnName) throws SQLException {
         List<String> dataList = new ArrayList<String>();
-        while(resultSet.next()){
-            String itemName = resultSet.getString(columnName);
+        while(resultSet2.next()){
+            String itemName = resultSet2.getString(columnName);
             dataList.add(itemName);
         }
         return dataList;

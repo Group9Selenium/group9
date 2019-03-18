@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
+        <module>Facebook</module>
+        <module>LinkedIn</module>
+        <module>Twitter</module>
     </modules>
     <dependencyManagement>
         <dependencies>
