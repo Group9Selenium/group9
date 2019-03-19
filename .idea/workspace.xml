@@ -17,44 +17,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="148" column="5" lean-forward="true" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#isLogedin#0;class#FaceBook#0" />
-                <element signature="method#newFeed#0;class#FaceBook#0" />
-                <element signature="method#searchFriends#0;class#FaceBook#0" />
-                <element signature="e#2677#2685#0" expanded="true" />
-                <element signature="method#readExcelFile#0;class#FaceBook#0" />
-                <element signature="e#2987#2995#0" expanded="true" />
-                <element signature="method#clickLeftNavBar#0;class#FaceBook#0" />
-                <element signature="method#isNumeric#0;class#FaceBook#0" />
-                <element signature="method#leftNavBarBottum#0;class#FaceBook#0" />
-                <element signature="e#4995#5003#0" expanded="true" />
+                <element signature="e#60#61#0" expanded="true" />
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="method#login#0;class#LinkedIn#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+        <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/xmlRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="616" selection-start-line="616" selection-end-line="616" />
+            <state relative-caret-position="225">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -83,8 +73,11 @@
         <option value="$PROJECT_DIR$/Generic/src/main/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/xmlRunner.xml" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" />
       </list>
     </option>
   </component>
@@ -134,33 +127,25 @@
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -168,14 +153,14 @@
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -183,45 +168,10 @@
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553029920984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553031812707" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -238,6 +188,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LinkedIn/src/test/resources" />
       <recent name="$PROJECT_DIR$/Facebook/src/main/data" />
       <recent name="$PROJECT_DIR$/Generic/src/main" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java" />
@@ -256,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml">
     <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Facebook" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/xmlRunner.xml" />
@@ -267,8 +218,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinkedIn" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/LinkedIn/src/test/resources/xmlRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" />
         <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" />
       </list>
     </recent_temporary>
@@ -287,35 +249,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 16h 45m 41s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 20m 38s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 16h 46m 48s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 22m 15s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 16h 47m 26s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 27m 12s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 16h 51m 43s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 34m 47s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 16h 52m 17s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 35m 30s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 16h 54m 51s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 36m 06s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 16h 55m 33s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 37m 13s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 08m 22s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 37m 46s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 09m 24s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 41m 30s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 12m 10s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_xmlRunner_xml - 2019.03.19 at 17h 43m 44s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/xmlRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -383,6 +345,14 @@
           <line>142</line>
           <properties />
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java</url>
+          <line>26</line>
+          <properties class="LinkedIn" method="login">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -537,16 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -554,22 +514,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="148" column="5" lean-forward="true" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="7" selection-start-line="55" selection-start-column="4" selection-end-line="58" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/xmlRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="55" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#closePapup#0;class#FaceBook#0" />
+            <element signature="method#goHomePage#0;class#FaceBook#0" />
             <element signature="method#isLogedin#0;class#FaceBook#0" />
+            <element signature="method#logout#0;class#FaceBook#0" />
+            <element signature="method#login#0;class#FaceBook#0" />
             <element signature="method#newFeed#0;class#FaceBook#0" />
             <element signature="method#searchFriends#0;class#FaceBook#0" />
-            <element signature="e#2677#2685#0" expanded="true" />
             <element signature="method#readExcelFile#0;class#FaceBook#0" />
-            <element signature="e#2987#2995#0" expanded="true" />
-            <element signature="method#clickLeftNavBar#0;class#FaceBook#0" />
             <element signature="method#isNumeric#0;class#FaceBook#0" />
             <element signature="method#leftNavBarBottum#0;class#FaceBook#0" />
-            <element signature="e#4995#5003#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#60#61#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="method#login#0;class#LinkedIn#0" />
           </folding>
         </state>
       </provider>
@@ -626,7 +625,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Facebook</last-edited>
+          <last-edited>LinkedIn</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

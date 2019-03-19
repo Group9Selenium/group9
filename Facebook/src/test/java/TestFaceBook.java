@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.util.List;
 
 public class TestFaceBook extends FaceBook {
-    /*@Test
+    @Test
     public static void runGetTitle(){
         System.out.println(FaceBook.getTitle());
-    }
+    }/*
     @Test
     public static void runIsLogedin(){
         System.out.println(FaceBook.isLogedin());
@@ -53,9 +53,9 @@ public class TestFaceBook extends FaceBook {
             System.out.println(str);
         }
     }*/
-    @Test
+    /*@Test
     public static void runUploadFile() throws Exception{
         FaceBook.uploadFile();
-    }
+    }*/
 
 }
