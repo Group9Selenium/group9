@@ -20,7 +20,7 @@ public class DataReader {
     FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
 
-    /*public String[][] fileReader1(String path,int sheetIndex) throws IOException {
+    public String[][] fileReader1(String path,int sheetIndex) throws IOException {
         String[][] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
@@ -39,9 +39,9 @@ public class DataReader {
             }
         }
         return data;
-    }*/
+    }
 
-    /*public String[] fileReader2(String path, int sheetIndex) throws IOException {
+    public String[] fileReader2(String path, int sheetIndex) throws IOException {
         String[] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
@@ -60,27 +60,26 @@ public class DataReader {
             }
         }
         return data;
-    }*/
+    }
 
-    /*public String getCellValue(HSSFCell cell) {
+    public String getCellValue(HSSFCell cell) {
         Object value = null;
 
-        int dataType = cell.getCellType();
+        CellType dataType = cell.getCellType();
         switch (dataType) {
-            case HSSFCell.CELL_TYPE_NUMERIC:
+            case NUMERIC:
                 value = cell.getNumericCellValue();
                 break;
-            case HSSFCell.CELL_TYPE_STRING:
+            case STRING:
                 value = cell.getStringCellValue();
                 break;
-            case HSSFCell.CELL_TYPE_BOOLEAN:
+            case BOOLEAN:
                 value = cell.getBooleanCellValue();
                 break;
         }
         return value.toString();
 
     }
-*/
     public void writeBack(String value) throws IOException {
         wb = new HSSFWorkbook();
         sheet = wb.createSheet();
