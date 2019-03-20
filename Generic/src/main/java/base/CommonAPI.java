@@ -211,7 +211,7 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
-    public void clickOnElement(String locator) {
+    public static void clickOnElement(String locator) {
         try {
             driver.findElement(By.cssSelector(locator)).click();
         } catch (Exception ex1) {

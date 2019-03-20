@@ -15,7 +15,7 @@
         <classes>
             <!--<class name="title.AmazonHome"/>-->
             <!--<class name="search.SearchTest"/>-->
-            <class name="TestMenuBOFA"/>
+            <class name="TestLogin"/>
         </classes>
     </test>
 

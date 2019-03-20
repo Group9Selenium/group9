@@ -32,9 +32,29 @@ public class TestMenuBOFA extends MenuBOFA {
 
     }
     @Test
-    public void homeLoansMenu(){
+    public void TestHomeLoansMenu(){
+        homeLoansMenu();
 
     }
+    @Test
+    public void TestAutoLoansMenu(){
+        autoLoansMenu();
+    }
+    @Test
+    public void TestInvestingMenu(){
+        investingMenu();
+    }
+    @Test
+    public void TestSmallBusinessMenu() {
+        smallBusinessMenu();
+
+    }
+    @Test
+    public void TestPersonalMenu(){
+
+        personalMenu();
+    }
+
 }
 
 
