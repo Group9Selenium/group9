@@ -3,19 +3,48 @@ import org.testng.annotations.Test;
 public class TestLinkedIn extends LinkedIn {
    /* @Test
     public static void runGetTitle(){
-        System.out.println(LinkedIn.getTitle());
+        System.out.println(getTitle());
     }
    @Test
     public static void runLogIn() throws InterruptedException {
-       LinkedIn.login();
+       login();
    }
    @Test
     public static void runLogout() throws InterruptedException {
-       LinkedIn.logout();
-   }*/
+       logout();
+   }
    @Test
    public static void runLogInOut() throws InterruptedException {
-       LinkedIn.login();
-       LinkedIn.logout();
+       login();
+       logout();
+   }
+   @Test
+   public static void runHomePage() throws Exception{
+       login();
+       goHomePage();
+   }
+   @Test
+    public  static  void runGetTopNavBar() throws Exception{
+       login();
+       getTopNavBar();
+   }
+   @Test
+    public static void runReadExcelFile() throws Exception {
+       readExcelFile();
+   }
+   @Test
+    public static void runClickTopNavBar() throws Exception{
+       login();
+       clickTopNavBartop();
+   }
+   @Test
+    public static void runJobSearch() throws Exception{
+       login();
+       searchJobs();
+   }*/
+   @Test
+   public static void runUploadFile() throws Exception{
+      login();
+      uploadFile();
    }
 }

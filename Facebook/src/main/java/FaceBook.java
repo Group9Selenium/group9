@@ -86,7 +86,7 @@ public class FaceBook extends CommonAPI {
         String [] data = dr.fileReader2(path,0);
         for (int i = 1; i < data.length; i++) {
             System.out.println(data[i]);
-            if (data[i]!=null)list.add(data[i].toString());
+            if (data[i]!=null)list.add(data[i]);
         }
         return list;
     }
