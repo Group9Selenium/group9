@@ -1,8 +1,17 @@
+import org.testng.annotations.Test;
+
 public class TestLogin extends Login{
+    @Test
 
-    public void testLogin (){
-        loginIcon();
-
+    public void testLocation (){
+        findATM();
 
     }
+    @Test
+    public void testSignIn(){
+        signInWithInvalidIDAndPassword();
+    }
+
+
+
 }
