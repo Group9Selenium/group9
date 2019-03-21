@@ -47,7 +47,7 @@ public class FaceBook extends CommonAPI {
         driver.manage().window().maximize();
         driver.findElement(By.id("email")).sendKeys("aroussi.nouredine@gmail.com");
         driver.findElement(By.id("pass")).sendKeys("ANHakim@19872017");
-        driver.findElement(By.xpath("//*[@id=\"u_0_2\"]")).click();
+        driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
         System.out.println("Successfully logged in");
         Thread.sleep(1000);
         driver.findElement(By.cssSelector(".layerCancel")).click();
