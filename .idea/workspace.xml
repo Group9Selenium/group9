@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/MenuBOFA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="19" column="64" selection-start-line="16" selection-start-column="7" selection-end-line="19" selection-end-column="64" />
+            <state relative-caret-position="117">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="339">
+              <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankofAmerica/src/test/java/TestLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="300">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,17 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="group9" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Generic" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,10 +313,21 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="group9" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Generic" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553175762708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553291913170" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -406,16 +415,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553107603153</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test3">
+      <created>1553175845050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553175845050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__ClassRepo_group9_BankofAmerica_src_main_resources_BOFATestRunner_xml - 2019.03.20 at 01h 51m 54s.xml">
-      <configuration name="C:/ClassRepo/group9/BankofAmerica/src/main/resources/BOFATestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__ClassRepo_group9_BankofAmerica_src_main_resources_BOFATestRunner_xml - 2019.03.20 at 14h 44m 54s.xml">
-      <configuration name="C:/ClassRepo/group9/BankofAmerica/src/main/resources/BOFATestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__ClassRepo_group9_BankofAmerica_src_main_resources_BOFATestRunner_xml - 2019.03.20 at 21h 30m 08s.xml">
       <configuration name="C:/ClassRepo/group9/BankofAmerica/src/main/resources/BOFATestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -440,12 +450,18 @@
     <history-entry file="C__ClassRepo_group9_BankofAmerica_src_main_resources_BOFATestRunner_xml - 2019.03.21 at 09h 39m 36s.xml">
       <configuration name="C:/ClassRepo/group9/BankofAmerica/src/main/resources/BOFATestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__ClassRepo_group9_BankofAmerica_src_main_resources_BOFATestRunner_xml - 2019.03.22 at 17h 12m 18s.xml">
+      <configuration name="C:/ClassRepo/group9/BankofAmerica/src/main/resources/BOFATestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__ClassRepo_group9_BankofAmerica_src_main_resources_BOFATestRunner_xml - 2019.03.22 at 17h 16m 28s.xml">
+      <configuration name="C:/ClassRepo/group9/BankofAmerica/src/main/resources/BOFATestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29554656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30526316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -482,7 +498,8 @@
     <MESSAGE value="Adding Module" />
     <MESSAGE value="test1" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="test3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BankofAmerica/pom.xml">
@@ -506,20 +523,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/MenuBOFA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="19" column="64" selection-start-line="16" selection-start-column="7" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1378">
           <caret line="134" column="3" selection-start-line="134" selection-start-column="3" selection-end-line="134" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/resources/BOFATestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -558,17 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/resources/BOFATestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/MenuBOFA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="117">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -577,8 +584,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankofAmerica/src/test/java/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
