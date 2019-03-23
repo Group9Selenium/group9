@@ -15,20 +15,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="450">
               <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
                 <element signature="e#466#467#0" expanded="true" />
                 <element signature="method#logout#0;class#Twitter#0" />
                 <element signature="method#login#0;class#Twitter#0" />
                 <element signature="method#logup#0;class#Twitter#0" />
                 <element signature="method#getTopNavBar#0;class#Twitter#0" />
-                <element signature="e#2276#2284#0" expanded="true" />
                 <element signature="method#readExcelFile#0;class#Twitter#0" />
                 <element signature="method#clickTopNavBar#0;class#Twitter#0" />
               </folding>
@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/xmlRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -63,10 +63,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="58" column="7" selection-start-line="55" selection-start-column="4" selection-end-line="58" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="495">
               <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,7 +112,6 @@
         <option value="$PROJECT_DIR$/Generic/src/main/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
         <option value="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" />
         <option value="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" />
@@ -107,6 +120,7 @@
         <option value="$PROJECT_DIR$/Twitter/src/test/resources/xmlRunner.xml" />
         <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/xmlRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/resources/xmlRunner.xml" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
       </list>
     </option>
   </component>
@@ -144,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,7 +191,7 @@
               <item name="Facebook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
@@ -214,12 +230,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553195245616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553195265976" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -345,9 +359,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1439" height="835" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27487472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28203294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -357,14 +370,14 @@
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -567,18 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="7" selection-start-line="55" selection-start-column="4" selection-end-line="58" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -632,28 +633,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="450">
           <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
             <element signature="e#466#467#0" expanded="true" />
             <element signature="method#logout#0;class#Twitter#0" />
             <element signature="method#login#0;class#Twitter#0" />
             <element signature="method#logup#0;class#Twitter#0" />
             <element signature="method#getTopNavBar#0;class#Twitter#0" />
-            <element signature="e#2276#2284#0" expanded="true" />
             <element signature="method#readExcelFile#0;class#Twitter#0" />
             <element signature="method#clickTopNavBar#0;class#Twitter#0" />
           </folding>
@@ -678,6 +669,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="58" column="7" selection-start-line="55" selection-start-column="4" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
