@@ -10,40 +10,80 @@ public class TestLogin extends Login {
     //String path = "../BankofAmerica/src/test/resources/TestData.xls";
 
 
-    //@Test
+    @Test
 
     public void testLocation() {
         findATM();
 
     }
 
-   // @Test
+    @Test
     public void testSignIn() {
         signInWithInvalidIDAndPassword();
     }
 
-    //@Test
+    @Test
     public void testSecurity() {
         securityAndHelp();
-
     }
-    //@Test
+    @Test
     public void testhomeLoans(){
         navigateToHomeLoans();
     }
-    //@Test
+    @Test
     public void testMortgage(){
         Mortgage();
     }
-    //@Test
+    @Test
     public void testNavigateToMortgage(){
         navigateToMortgage();
     }
-
     @Test
     public void CalculateMonthlyPayment() throws IOException {
         mortgageCalculator();
     }
+    @Test
+    public void testMoreMenu(){
+        moreMenu();
+    }
+    @Test
+    public void testContactUs(){
+        contactUs();
+    }
+    @Test
+    public void testHelpMenu(){
+        helpMenu();
+    }
+    @Test
+    public void testAccessibleBanking(){
+        accessibleBanking();
+    }
+    @Test
+    public void testCareer(){
+        careersWithBOA();
+    }
+    @Test
+    public void testPrivacyAndSecurity(){
+        privacyAndSecurity();
+
+    }
+    @Test
+    public void testMcafee(){
+        mcafeeSecurity();
+    }
+   @Test
+    public void testAdvertising(){
+        advertising();
+   }
+   @Test
+    public void testFeedback(){
+        feedback();
+   }
+   @Test
+    public void testOnlineBankingSite(){
+        onlineBankingSite();
+
+   }
 
 
 }

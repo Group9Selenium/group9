@@ -98,12 +98,68 @@ public class Login extends CommonAPI {
             System.out.println("Running test with Purchase Price = " + purchasePrice);
             Calculator(purchasePrice, downPayment, monthlyPayment);
         }
+    }
+    public void moreMenu(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_locations")).isDisplayed();
+        Assert.assertTrue(flag);
+    }
+    public void contactUs(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_contactus")).isDisplayed();
+        Assert.assertTrue(flag);
 
+    }
+    public void helpMenu(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_help")).isDisplayed();
+        Assert.assertTrue(flag);
+    }
+    public void accessibleBanking(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_accessible_banking")).isDisplayed();
+        Assert.assertTrue(flag);
+    }
+    public void careersWithBOA(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_careers")).isDisplayed();
+        Assert.assertTrue(flag);
+    }
+    public void privacyAndSecurity(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_privacy_and_security")).isDisplayed();
+        Assert.assertTrue(flag);
+    }
+    public void mcafeeSecurity(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_mcafee_internet_security")).isDisplayed();
+        Assert.assertTrue(flag);
+    }
+    public void advertising(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_advertising_practices")).isDisplayed();
+        Assert.assertTrue(flag);
+    }
+    public void feedback(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_feedback")).isDisplayed();
+        Assert.assertTrue(flag);
+
+    }
+    public void onlineBankingSite(){
+        String HomePage = driver.getCurrentUrl();
+        Boolean flag = driver.findElement(By.id("footer_bofa_view_full_online_banking_site")).isDisplayed();
+        Assert.assertTrue(flag);
 
     }
 
 
 }
+
+
+
+
+
 
 
 
