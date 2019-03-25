@@ -1,5 +1,7 @@
 package base;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,20 +14,81 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
+import reporting.ExtentManager;
+import reporting.ExtentTestManager;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
+    //Extent Report Listener
+    public static ExtentReports extent;
+    @BeforeSuite
+    public void extentSetup(ITestContext context) {
+        ExtentManager.setOutputDirectory(context);
+        extent = ExtentManager.getInstance();
+    }
+    @BeforeMethod
+    public void startExtent(Method method) {
+        String className = method.getDeclaringClass().getSimpleName();
+        String methodName = method.getName().toLowerCase();
+        ExtentTestManager.startTest(method.getName());
+        ExtentTestManager.getTest().assignCategory(className);
+    }
+    protected String getStackTrace(Throwable t) {
+        StringWriter sw = new StringWriter();
+        PrintWriter pw = new PrintWriter(sw);
+        t.printStackTrace(pw);
+        return sw.toString();
+    }
+    @AfterMethod
+    public void afterEachTestMethod(ITestResult result) {
+        ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
+        ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
 
+        for (String group : result.getMethod().getGroups()) {
+            ExtentTestManager.getTest().assignCategory(group);
+        }
+
+        if (result.getStatus() == 1) {
+            ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
+        } else if (result.getStatus() == 2) {
+            ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
+        } else if (result.getStatus() == 3) {
+            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
+        }
+        ExtentTestManager.endTest();
+        extent.flush();
+        if (result.getStatus() == ITestResult.FAILURE) {
+            captureScreenshot(driver, result.getName());
+        }
+        driver.quit();
+    }
+    @AfterSuite
+    public void generateReport() {
+        extent.close();
+    }
+    private Date getTime(long millis) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(millis);
+        return calendar.getTime();
+    }
+
+    //WebDriver Instance
     public static WebDriver driver = null;
     public String browserstack_username= "noureddinearouss1";
     public String browserstack_accesskey = "zd9PpzEQ3ZQyuWKphqsj";
@@ -35,9 +98,8 @@ public class CommonAPI {
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
-                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
-        //System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
+                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("73.0")
+                                  String browserVersion, @Optional("https://www.Facebook.com") String url)throws IOException {
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -109,7 +171,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp() {
-        driver.close();
+       // driver.close();
     }
 
     //type

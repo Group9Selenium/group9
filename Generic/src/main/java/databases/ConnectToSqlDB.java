@@ -45,7 +45,8 @@ public class ConnectToSqlDB {
         try {
             connectToSqlDatabase();
             statement = connect.createStatement();
-            resultSet = statement.executeQuery("select * from " + tableName);
+            resultSet = statement.executeQuery("select * from " +tableName);
+            System.out.println(resultSet.getRow());
             data =  getResultSetData(resultSet, columnName);
         } catch (ClassNotFoundException e) {
             throw e;
