@@ -22,8 +22,8 @@ public class FaceBook extends CommonAPI {
         {driver.findElement(By.xpath("//*[@class='_51-u']")).click();}
     }
     public static void goHomePage(){
-        closePapup();
-        driver.findElement(By.xpath("//div[@id='u_0_c']/a")).click();
+       // closePapup();
+        driver.findElement(By.xpath("//*[@class='_2s25']")).click();
     }
     public static Boolean isLogedin(){
         //System.out.println(driver.getTitle());
@@ -46,8 +46,8 @@ public class FaceBook extends CommonAPI {
 
         driver.manage().window().maximize();
         driver.findElement(By.id("email")).sendKeys("aroussi.nouredine@gmail.com");
-        driver.findElement(By.id("pass")).sendKeys("ANHakim@19872017");
-        driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
+        driver.findElement(By.id("pass")).sendKeys("ANHakim@19872017",Keys.ENTER);
+        //driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
         System.out.println("Successfully logged in");
         Thread.sleep(1000);
         driver.findElement(By.cssSelector(".layerCancel")).click();
@@ -55,8 +55,7 @@ public class FaceBook extends CommonAPI {
     }
     public static void newFeed() throws InterruptedException {
         login();
-        closePapup();
-        driver.findElement(By.cssSelector(".\\_54nd .\\_54nh")).click();
+        driver.findElement(By.cssSelector("#navItem_4748854339 .linkWrap")).click();
         Thread.sleep(1000);
     }
     public static void searchFriends() throws Exception {
@@ -93,7 +92,6 @@ public class FaceBook extends CommonAPI {
     public static void clickLeftNavBartop() throws InterruptedException, IOException {
         List<String> btnAction=readExcelFile();
         login();
-        //List<WebElement> listWE =  driver.findElements(By.xpath("//*[@id='universalNav']//a/div"));
             for (String act:btnAction) {
                 if (act.equals("News Feed")){
                     driver.findElement(By.cssSelector("#navItem_4748854339 .linkWrap")).click();
@@ -103,20 +101,20 @@ public class FaceBook extends CommonAPI {
                     if (act.equals("Messenger")) {
                         driver.findElement(By.xpath("//li[@id='navItem_217974574879787']/a/div")).click();
                         Thread.sleep(1000);
-                        goHomePage();
+                        //goHomePage();
 
                     } else {
                         if (act.equals("Watch")) {
                             driver.findElement(By.xpath("//li[@id='navItem_2392950137']/a/div")).click();
                             Thread.sleep(1000);
-                            goHomePage();
+                            //goHomePage();
                         } else if (act.equals("Marketplace")) {
                             driver.findElement(By.xpath("//li[@id='navItem_1606854132932955']/a/div")).click();
-                            goHomePage();
+                            //goHomePage();
                         }
                     }
                 }
-
+                goHomePage();
             }
     }
     public static boolean isNumeric(String str) {

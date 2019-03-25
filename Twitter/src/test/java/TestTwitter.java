@@ -1,10 +1,12 @@
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 public class TestTwitter extends Twitter{
-    /*@Test
+    @Test
     public static void runGetTitle(){
+
         System.out.println(getTitle());
     }
 
@@ -12,6 +14,7 @@ public class TestTwitter extends Twitter{
     public static void runLogUp() throws InterruptedException {
         logup();
     }
+    /*
     @Test
     public static void runLogIn() throws Exception{
         login();
@@ -29,10 +32,10 @@ public class TestTwitter extends Twitter{
     @Test
     public static void runReadExcelFile() throws IOException {
         readExcelFile();
-    }*/
+    }
     @Test
     public static void runClickTopNavBar() throws InterruptedException, IOException {
         login();
         clickTopNavBar();
-    }
+    }*/
 }

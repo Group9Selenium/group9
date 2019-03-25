@@ -80,7 +80,9 @@ public class LinkedIn extends CommonAPI {
     }
 
     public static void searchJobs() throws Exception {
+        //System.out.println(ConnectToSqlDB.readDataBase("Jobs","JobTitle"));
         List<String> jobSearch = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
+        //System.out.println(jobSearch);
         driver.findElement(By.xpath("//*[@id='jobs-nav-item']")).click();
         //WebElement searchEdtText =driver.findElement(By.xpath("//input[@placeholder='Search jobs']"));
         //WebElement locationEdtText = driver.findElement(By.xpath("//input[@placeholder='Search location']"));
@@ -99,8 +101,6 @@ public class LinkedIn extends CommonAPI {
         for (WebElement wE : list
         ) {
             System.out.println(wE.getText());
-
         }
-
     }
 }

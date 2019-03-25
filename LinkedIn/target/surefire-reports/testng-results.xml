@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LinkedIn Automation Script " duration-ms="14170" started-at="2019-03-24T22:06:57Z" finished-at="2019-03-24T22:07:11Z">
+    <groups>
+    </groups>
+    <test name="LinedIn Runner" duration-ms="14170" started-at="2019-03-24T22:06:57Z" finished-at="2019-03-24T22:07:11Z">
+      <class name="TestLinkedIn">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestLinkedIn@61dc03ce]" name="setUp" is-config="true" duration-ms="4146" started-at="2019-03-24T22:06:57Z" finished-at="2019-03-24T22:07:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Majove]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[73.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.linkedin.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runGetTitle()[pri:0, instance:TestLinkedIn@61dc03ce]" name="runGetTitle" duration-ms="7" started-at="2019-03-24T22:07:01Z" finished-at="2019-03-24T22:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runGetTitle -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestLinkedIn@61dc03ce]" name="cleanUp" is-config="true" duration-ms="134" started-at="2019-03-24T22:07:01Z" finished-at="2019-03-24T22:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestLinkedIn@61dc03ce]" name="setUp" is-config="true" duration-ms="4540" started-at="2019-03-24T22:07:01Z" finished-at="2019-03-24T22:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Majove]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[73.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.linkedin.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runLogIn()[pri:0, instance:TestLinkedIn@61dc03ce]" name="runLogIn" duration-ms="5127" started-at="2019-03-24T22:07:05Z" finished-at="2019-03-24T22:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogIn -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:TestLinkedIn@61dc03ce]" name="cleanUp" is-config="true" duration-ms="199" started-at="2019-03-24T22:07:11Z" finished-at="2019-03-24T22:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- TestLinkedIn -->
+    </test> <!-- LinedIn Runner -->
+  </suite> <!-- LinkedIn Automation Script  -->
+</testng-results>
