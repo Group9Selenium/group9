@@ -1,7 +1,7 @@
-import org.openqa.selenium.support.PageFactory;
+import base.CommonAPI;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.io.IOException;
 import java.util.List;
@@ -9,49 +9,64 @@ import java.util.List;
 public class TestFaceBook extends FaceBook {
 
     @Test
-    public static void runGetTitle(){
+    public void runGetTitle(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         System.out.println(getTitle());
     }
 
     @Test
-    public static void runIsLogedin(){
-        System.out.println(isLogedin());
+    public void runIsLogedin(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        boolean b= isLogedin();
+        Assert.assertEquals(b,true);
     }
 
     @Test
-    public static void runLogin() throws InterruptedException {
+    public void runLogin() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
+        boolean b =isLogedin();
+        Assert.assertEquals(b,false);
     }
-    /*
+
     @Test
-    public static void runLogout() throws InterruptedException {
+    public void runLogout() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         logout();
+        boolean b =isLogedin();
+        Assert.assertEquals(b,true);
     }
     @Test
-    public static void runNewFeed() throws InterruptedException {
+    public  void runNewFeed() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         newFeed();
     }
     @Test
-    public static void runSearchFriends() throws Exception {
+    public  void runSearchFriends() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchFriends();
     }
     @Test
-    public static void runLefNavBartop() throws InterruptedException {
+    public  void runLefNavBartop() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         leftNavBartop();
     }
     @Test
-    public static void runReadExcel() throws IOException, InterruptedException {
+    public  void runReadExcel() throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list1 =leftNavBartop();
         List<String> list2 = readExcelFile();
-        //Assert.assertEquals(list1,list2);
+        Assert.assertEquals(list1,list2);
     }
     @Test
-    public static void runclickLeftNavBartop() throws IOException, InterruptedException {
+    public  void runclickLeftNavBartop() throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickLeftNavBartop();
     }
     @Test
-    public static void runLeftnavBarButtom() throws InterruptedException {
+    public  void runLeftNavBarButtom() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 
         List<String> list1 = leftNavBarBottum();
         for (String str: list1) {
@@ -59,7 +74,8 @@ public class TestFaceBook extends FaceBook {
         }
     }
     @Test
-    public static void runUploadFile() throws Exception{
-        FaceBook.uploadFile();
-    }*/
+    public  void runUploadFile() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        uploadFile();
+    }
 }
