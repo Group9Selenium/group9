@@ -57,6 +57,18 @@ public class TestLinkedIn extends LinkedIn {
        searchJobs();
    }
    @Test
+   public void runSearchMyNetwork() throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       login();
+       searchMyNetwork();
+   }
+   @Test
+   public void runSearchMessages() throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       login();
+       searchMyMessages();
+   }
+   @Test
    public  void runUploadFile() throws Exception{
        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        login();
@@ -67,4 +79,16 @@ public class TestLinkedIn extends LinkedIn {
        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        logup();
    }
+   @Test
+    public void runDropDownItems() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        dropDownListItems();
+   }
+    @Test
+    public void runClickDropDownItems() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        clickDropDownListItems();
+    }
 }

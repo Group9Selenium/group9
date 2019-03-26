@@ -89,6 +89,16 @@ public class TestFaceBook extends FaceBook {
         searchMarketPlace();
     }
     @Test
+    public void runSearchMarketPlaceGroups() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        searchMarketPlaceGroups();
+    }
+    @Test
+    public void runSearchMarketPlaceStores() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        searchMarketPlaceStores();
+    }
+    @Test
     public void getListMarketPlaceNavBar() throws Exception{
         List<String> btnAction=readExcelFile(1);
         List<String> searhCr= marketplaceNavBar();
@@ -99,4 +109,5 @@ public class TestFaceBook extends FaceBook {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickMarketplaceNavBar();
     }
+
 }

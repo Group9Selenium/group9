@@ -46,4 +46,10 @@ public class TestTwitter extends Twitter{
         login();
         clickTopNavBar();
     }
+    @Test
+    public void runClickMomentNavBar() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        clickMomentNavBar();
+    }
 }

@@ -16,101 +16,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="47" column="87" selection-start-line="47" selection-start-column="87" selection-end-line="47" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getTitle#0;class#LinkedIn#0" />
-                <element signature="method#isLogedin#0;class#LinkedIn#0" />
-                <element signature="method#logout#0;class#LinkedIn#0" />
-                <element signature="method#goHomePage#0;class#LinkedIn#0" />
-                <element signature="method#getTopNavBar#0;class#LinkedIn#0" />
-                <element signature="method#readExcelFile#0;class#LinkedIn#0" />
-                <element signature="method#clickTopNavBartop#0;class#LinkedIn#0" />
-                <element signature="method#searchJobs#0;class#LinkedIn#0" />
-                <element signature="method#uploadFile#0;class#LinkedIn#0" />
-                <element signature="method#logup#0;class#LinkedIn#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getTitle#0;class#FaceBook#0" />
-                <element signature="method#closePapup#0;class#FaceBook#0" />
-                <element signature="method#goHomePage#0;class#FaceBook#0" />
-                <element signature="method#isLogedin#0;class#FaceBook#0" />
-                <element signature="method#logup#0;class#FaceBook#0" />
-                <element signature="method#logout#0;class#FaceBook#0" />
-                <element signature="method#login#0;class#FaceBook#0" />
-                <element signature="method#newFeed#0;class#FaceBook#0" />
-                <element signature="method#searchFriends#0;class#FaceBook#0" />
-                <element signature="method#leftNavBartop#0;class#FaceBook#0" />
-                <element signature="method#readExcelFile#0;class#FaceBook#0" />
-                <element signature="method#clickLeftNavBartop#0;class#FaceBook#0" />
-                <element signature="method#isNumeric#0;class#FaceBook#0" />
-                <element signature="method#leftNavBarBottum#0;class#FaceBook#0" />
-                <element signature="method#uploadFile#0;class#FaceBook#0" />
-                <element signature="method#searchMarketPlace#0;class#FaceBook#0" />
-                <element signature="method#marketplaceNavBar#0;class#FaceBook#0" />
-                <element signature="method#clickMarketplaceNavBar#0;class#FaceBook#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="46" column="129" selection-start-line="46" selection-start-column="129" selection-end-line="46" selection-end-column="129" />
+            <state relative-caret-position="242">
+              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#logup#0;class#Twitter#0" />
+                <element signature="method#logout#0;class#Twitter#0" />
+                <element signature="method#login#0;class#Twitter#0" />
                 <element signature="method#getTopNavBar#0;class#Twitter#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#readExcelFile#0;class#Twitter#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
+        <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="88" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,13 +72,13 @@
         <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
         <option value="$PROJECT_DIR$/Facebook/pom.xml" />
         <option value="$PROJECT_DIR$/Twitter/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
-        <option value="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
-        <option value="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
-        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" />
         <option value="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
         <option value="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
       </list>
     </option>
   </component>
@@ -173,7 +99,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1439" />
     <option name="height" value="835" />
@@ -196,12 +122,6 @@
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
               <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
@@ -255,7 +175,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553617856987" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553627878167" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -360,34 +280,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.26 at 11h 48m 39s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.26 at 11h 50m 59s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.26 at 12h 05m 31s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 12h 05m 50s.xml">
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 10m 21s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.26 at 12h 12m 04s.xml">
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 11m 22s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 11m 48s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 12m 05s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 13m 39s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 16m 34s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 20m 22s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.26 at 15h 02m 45s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 12h 13m 49s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 12h 15m 52s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 12h 22m 51s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.26 at 12h 23m 34s.xml">
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.26 at 15h 11m 35s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.26 at 12h 28m 25s.xml">
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.26 at 15h 16m 06s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -395,7 +315,7 @@
     <frame x="0" y="23" width="1439" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14101647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1424481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -405,7 +325,7 @@
       <window_info id="DB Browser" order="7" weight="0.18110237" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,6 +364,12 @@
           <line>35</line>
           <properties />
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -637,13 +563,6 @@
     <entry file="file://$USER_HOME$/Downloads/Web-Automation-November2018-amazon/RestAPI/src/test/java/rest/AllEmployeeAPI.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="268" column="30" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -651,62 +570,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="592" selection-start-line="592" selection-end-line="592" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="46" column="129" selection-start-line="46" selection-start-column="129" selection-end-line="46" selection-end-column="129" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#logup#0;class#Twitter#0" />
-            <element signature="method#getTopNavBar#0;class#Twitter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="47" column="87" selection-start-line="47" selection-start-column="87" selection-end-line="47" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getTitle#0;class#LinkedIn#0" />
-            <element signature="method#isLogedin#0;class#LinkedIn#0" />
-            <element signature="method#logout#0;class#LinkedIn#0" />
-            <element signature="method#goHomePage#0;class#LinkedIn#0" />
-            <element signature="method#getTopNavBar#0;class#LinkedIn#0" />
-            <element signature="method#readExcelFile#0;class#LinkedIn#0" />
-            <element signature="method#clickTopNavBartop#0;class#LinkedIn#0" />
-            <element signature="method#searchJobs#0;class#LinkedIn#0" />
-            <element signature="method#uploadFile#0;class#LinkedIn#0" />
-            <element signature="method#logup#0;class#LinkedIn#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+        <state relative-caret-position="326">
+          <caret line="216" column="4" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getTitle#0;class#FaceBook#0" />
@@ -725,6 +595,8 @@
             <element signature="method#leftNavBarBottum#0;class#FaceBook#0" />
             <element signature="method#uploadFile#0;class#FaceBook#0" />
             <element signature="method#searchMarketPlace#0;class#FaceBook#0" />
+            <element signature="method#searchMarketPlaceGroups#0;class#FaceBook#0" />
+            <element signature="method#searchMarketPlaceGroups#1;class#FaceBook#0" />
             <element signature="method#marketplaceNavBar#0;class#FaceBook#0" />
             <element signature="method#clickMarketplaceNavBar#0;class#FaceBook#0" />
           </folding>
@@ -733,20 +605,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="88" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
+    <entry file="file://$USER_HOME$/Downloads/Web-AutomationJan2019-tabledata/Pnt/src/main/java/authentication/LogInPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-929">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="517" column="28" selection-start-line="517" selection-start-column="28" selection-end-line="517" selection-end-column="28" />
+          <folding>
+            <element signature="e#3111#3112#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="187" column="53" selection-start-line="187" selection-start-column="53" selection-end-line="187" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getTitle#0;class#LinkedIn#0" />
+            <element signature="method#isLogedin#0;class#LinkedIn#0" />
+            <element signature="method#logout#0;class#LinkedIn#0" />
+            <element signature="method#login#0;class#LinkedIn#0" />
+            <element signature="method#goHomePage#0;class#LinkedIn#0" />
+            <element signature="method#getTopNavBar#0;class#LinkedIn#0" />
+            <element signature="method#readExcelFile#0;class#LinkedIn#0" />
+            <element signature="method#clickTopNavBartop#0;class#LinkedIn#0" />
+            <element signature="method#searchJobs#0;class#LinkedIn#0" />
+            <element signature="method#searchMyNetwork#1;class#LinkedIn#0" />
+            <element signature="method#searchJobs#1;class#LinkedIn#0" />
+            <element signature="method#uploadFile#0;class#LinkedIn#0" />
+            <element signature="method#logup#0;class#LinkedIn#0" />
+            <element signature="method#dropDownListItems#0;class#LinkedIn#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#logout#0;class#Twitter#0" />
+            <element signature="method#login#0;class#Twitter#0" />
+            <element signature="method#getTopNavBar#0;class#Twitter#0" />
+            <element signature="method#readExcelFile#0;class#Twitter#0" />
           </folding>
         </state>
       </provider>

@@ -180,7 +180,38 @@ public class FaceBook extends CommonAPI {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+", "+ item);
             wE.sendKeys(item,Keys.ENTER);
             Thread.sleep(1000);
-            wE.clear();
+            driver.findElement(By.xpath("//span/span/label/input")).clear();
+            Thread.sleep(500);
+        }
+    }
+    public void searchMarketPlaceGroups() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        List<String> listItems= ConnectToSqlDB.readDataBase("ItemList","items");
+        driver.findElement(By.xpath("//*[@id='navItem_1606854132932955']/a/div")).click();
+        driver.findElement(By.xpath("//*[@title='Groups']")).click();
+        WebElement wE = driver.findElement(By.xpath("//span/span/label/input"));
+        for (String item:listItems) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+", "+ item);
+            wE.sendKeys(item,Keys.ENTER);
+            Thread.sleep(1000);
+            driver.findElement(By.xpath("//span/span/label/input")).clear();
+            Thread.sleep(500);
+        }
+    }
+    public void searchMarketPlaceStores() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        List<String> listItems= ConnectToSqlDB.readDataBase("ItemList","items");
+        driver.findElement(By.xpath("//*[@id='navItem_1606854132932955']/a/div")).click();
+        driver.findElement(By.xpath("//*[@title='Stores']")).click();
+        WebElement wE = driver.findElement(By.xpath("//span/span/label/input"));
+        for (String item:listItems) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+", "+ item);
+            wE.sendKeys(item,Keys.ENTER);
+            Thread.sleep(1000);
+            driver.findElement(By.xpath("//span/span/label/input")).clear();
+            Thread.sleep(500);
         }
     }
     public List<String> marketplaceNavBar() throws Exception{

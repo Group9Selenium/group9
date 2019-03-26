@@ -96,14 +96,39 @@ public class LinkedIn extends CommonAPI {
 
     }
 
+    public void searchMyNetwork() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> friendSearch = ConnectToSqlDB.readDataBase("Friends", "Names");
+        driver.findElement(By.xpath("//*[@id='mynetwork-nav-item']")).click();
+        for (String name : friendSearch) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + name);
+            driver.findElement(By.xpath("//*[@id='nav-search-artdeco-typeahead,]//input")).sendKeys(name);
+            Thread.sleep(1000);
+            driver.findElement(By.xpath("//*[@id='nav-search-artdeco-typeahead']//input")).clear();
+        }
+    }
+
+    public void searchMyMessages() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> friendSearch = ConnectToSqlDB.readDataBase("Friends", "Names");
+        driver.findElement(By.xpath("//*[@id='messaging-nav-item']")).click();
+        for (String name : friendSearch) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + name);
+            driver.findElement(By.xpath("search-conversations")).sendKeys(name);
+            Thread.sleep(1000);
+            driver.findElement(By.xpath("search-conversations")).clear();
+        }
+    }
+
     public void searchJobs() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         List<String> jobSearch = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
-        //System.out.println(jobSearch);
         driver.findElement(By.xpath("//*[@id='jobs-nav-item']")).click();
-        //WebElement searchEdtText =driver.findElement(By.xpath("//input[@placeholder='Search jobs']"));
-        //WebElement locationEdtText = driver.findElement(By.xpath("//input[@placeholder='Search location']"));
         for (String job : jobSearch) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + job);
@@ -126,12 +151,48 @@ public class LinkedIn extends CommonAPI {
             System.out.println(wE.getText());
         }
     }
-    public void logup() throws Exception{
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        driver.findElement(By.xpath("//*[@name='firstName']")).sendKeys("Test User",Keys.TAB);
-        driver.switchTo().activeElement().sendKeys("Test User",Keys.TAB);
-        driver.switchTo().activeElement().sendKeys("Test.User@gmail.com",Keys.TAB);
-        driver.switchTo().activeElement().sendKeys("Test-User2019",Keys.ENTER);
+
+    public void logup() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        driver.findElement(By.xpath("//*[@name='firstName']")).sendKeys("Test User", Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("Test User", Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("Test.User@gmail.com", Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("Test-User2019", Keys.ENTER);
         Thread.sleep(1000);
+    }
+
+    public void dropDownListItems() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        driver.findElement(By.xpath("//*[@id='nav-settings__dropdown-trigger']")).click();
+        Thread.sleep(2000);
+        List<WebElement> listWE= driver.findElements(By.xpath("//*[@id='nav-settings__dropdown-options']/li//li"));
+        for (WebElement wE: listWE
+        ) {
+            System.out.println(wE.getText());
+        }
+    }
+    public void clickDropDownListItems() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String originalHandle = driver.getWindowHandle();
+        WebElement profileClick = driver.findElement(By.xpath("//*[@id='nav-settings__dropdown-trigger']"));
+        profileClick.click();
+        Thread.sleep(2000);
+        List<WebElement> listWE= driver.findElements(By.xpath("//*[@id='nav-settings__dropdown-options']/li//li"));
+        for (WebElement wE: listWE) {
+            wE.click();
+            for(String handle : driver.getWindowHandles()) {
+                if (!handle.equals(originalHandle)) {
+                    driver.switchTo().window(handle);
+                    Thread.sleep(500);
+                    driver.close();
+                }
+            }
+            driver.switchTo().window(originalHandle);
+            profileClick.click();
+            Thread.sleep(1000);
+        }
     }
 }
