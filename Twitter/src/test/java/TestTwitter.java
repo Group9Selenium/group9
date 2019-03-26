@@ -1,41 +1,49 @@
+import base.CommonAPI;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.io.IOException;
 
 public class TestTwitter extends Twitter{
     @Test
-    public static void runGetTitle(){
-
+    public  void runGetTitle(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         System.out.println(getTitle());
     }
 
     @Test
-    public static void runLogUp() throws InterruptedException {
+    public  void runLogUp() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         logup();
     }
-    /*
+
     @Test
-    public static void runLogIn() throws Exception{
+    public  void runLogIn() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
     }
     @Test
-    public static void runLogout() throws InterruptedException{
+    public  void runLogout() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         logout();
     }
     @Test
-    public static void runTopNavBar() throws InterruptedException {
+    public  void runTopNavBar() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         getTopNavBar();
     }
     @Test
-    public static void runReadExcelFile() throws IOException {
+    public  void runReadExcelFile() throws IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         readExcelFile();
     }
     @Test
-    public static void runClickTopNavBar() throws InterruptedException, IOException {
+    public  void runClickTopNavBar() throws InterruptedException, IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         clickTopNavBar();
-    }*/
+    }
 }

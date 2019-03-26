@@ -22,6 +22,11 @@ public class TestFaceBook extends FaceBook {
     }
 
     @Test
+    public void runLogup() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        logup();
+    }
+    @Test
     public void runLogin() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
@@ -56,7 +61,7 @@ public class TestFaceBook extends FaceBook {
     public  void runReadExcel() throws IOException, InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list1 =leftNavBartop();
-        List<String> list2 = readExcelFile();
+        List<String> list2 = readExcelFile(0);
         Assert.assertEquals(list1,list2);
     }
     @Test
@@ -77,5 +82,21 @@ public class TestFaceBook extends FaceBook {
     public  void runUploadFile() throws Exception{
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         uploadFile();
+    }
+    @Test
+    public void runSearchMarketPlace() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        searchMarketPlace();
+    }
+    @Test
+    public void getListMarketPlaceNavBar() throws Exception{
+        List<String> btnAction=readExcelFile(1);
+        List<String> searhCr= marketplaceNavBar();
+        Assert.assertEquals(btnAction,searhCr);
+    }
+    @Test
+    public void runClickMarketplaceNavBar() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickMarketplaceNavBar();
     }
 }

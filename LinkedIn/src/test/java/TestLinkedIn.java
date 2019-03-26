@@ -1,53 +1,70 @@
+import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class TestLinkedIn extends LinkedIn {
 
     @Test
-    public static void runGetTitle(){
+    public  void runGetTitle(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         System.out.println(getTitle());
     }
    @Test
-    public static void runLogIn() throws InterruptedException {
+    public  void runLogIn() throws InterruptedException {
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        login();
-   }/*
+   }
    @Test
-    public static void runLogout() throws InterruptedException {
+    public  void runLogout() throws InterruptedException {
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        logout();
    }
    @Test
-   public static void runLogInOut() throws InterruptedException {
+   public  void runLogInOut() throws InterruptedException {
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        login();
        logout();
    }
    @Test
-   public static void runHomePage() throws Exception{
+   public void runHomePage() throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        login();
        goHomePage();
    }
    @Test
-    public  static  void runGetTopNavBar() throws Exception{
+    public    void runGetTopNavBar() throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        login();
        getTopNavBar();
    }
    @Test
-    public static void runReadExcelFile() throws Exception {
+    public  void runReadExcelFile() throws Exception {
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        readExcelFile();
    }
    @Test
-    public static void runClickTopNavBar() throws Exception{
+    public  void runClickTopNavBar() throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        login();
        clickTopNavBartop();
    }
    @Test
-    public static void runJobSearch() throws Exception{
+    public  void runJobSearch() throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
        login();
        searchJobs();
    }
    @Test
-   public static void runUploadFile() throws Exception{
-      login();
+   public  void runUploadFile() throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       login();
       uploadFile();
-   }*/
+   }
+   @Test
+    public void runLogUp()throws Exception{
+       TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+       logup();
+   }
 }
