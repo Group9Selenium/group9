@@ -9,15 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Twitter</artifactId>
-
-    <dependencies>
-        <dependency>
-            <groupId>Group9-Test-Automation</groupId>
-            <artifactId>Generic</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>rm
+    <artifactId>Amazon</artifactId>
     <build>
         <plugins>
             <plugin>
@@ -27,15 +19,22 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-               <configuration>
-                   <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                <configuration>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     <suiteXmlFiles>
-                        <suiteXmlFile>/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>Group9-Test-Automation</groupId>
+            <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

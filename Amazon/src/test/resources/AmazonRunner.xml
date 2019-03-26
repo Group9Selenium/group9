@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="LinkedIn Automation Script " parallel="false">
+<suite name="Amazon Automation Script " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -9,11 +9,13 @@
     <parameter name="os_version" value="Majove"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="73.0"/>
-    <parameter name="url" value="https://www.linkedin.com/"/>
+    <parameter name="url" value="https://www.amazon.com"/>
 
-    <test name = "LinedIn Runner">
+    <test name = "Amazon Runner">
         <classes>
-            <class name="TestLinkedIn"/>
+           <!-- <class name="TestFaceBook"/>-->
+            <class name="testAmazonPackage.TestAmazon"/>
+
         </classes>
     </test>
 
