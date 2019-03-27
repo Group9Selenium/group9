@@ -10,7 +10,7 @@ public class TestLogin extends Login {
     //String path = "../BankofAmerica/src/test/resources/TestData.xls";
 
 
-    @Test
+  //  @Test
 
     public void testLocation() {
         findATM();
@@ -30,11 +30,11 @@ public class TestLogin extends Login {
     public void testhomeLoans(){
         navigateToHomeLoans();
     }
-    @Test
+   @Test
     public void testMortgage(){
         Mortgage();
     }
-    @Test
+   @Test
     public void testNavigateToMortgage(){
         navigateToMortgage();
     }
@@ -46,7 +46,7 @@ public class TestLogin extends Login {
     public void testMoreMenu(){
         moreMenu();
     }
-    @Test
+   @Test
     public void testContactUs(){
         contactUs();
     }
@@ -54,11 +54,11 @@ public class TestLogin extends Login {
     public void testHelpMenu(){
         helpMenu();
     }
-    @Test
+   @Test
     public void testAccessibleBanking(){
         accessibleBanking();
     }
-    @Test
+   @Test
     public void testCareer(){
         careersWithBOA();
     }
@@ -67,7 +67,7 @@ public class TestLogin extends Login {
         privacyAndSecurity();
 
     }
-    @Test
+   @Test
     public void testMcafee(){
         mcafeeSecurity();
     }
@@ -75,7 +75,7 @@ public class TestLogin extends Login {
     public void testAdvertising(){
         advertising();
    }
-   @Test
+  @Test
     public void testFeedback(){
         feedback();
    }
@@ -84,6 +84,23 @@ public class TestLogin extends Login {
         onlineBankingSite();
 
    }
+   @Test
+    public void testClickPrivacy(){
+        clickPrivacyAndSecurity();
+   }
+   @Test
+    public void testClickAccount(){
+        clickAccount();
+   }
+   @Test
+    public void testClickProtectIdentity(){
+        clickProtectIdentity();
+   }
+   @Test
+    public void testClickAvoidScam(){
+        clickAvoidScam();
+   }
 
 
-}
+    }
+

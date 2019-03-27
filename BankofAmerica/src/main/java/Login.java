@@ -152,6 +152,33 @@ public class Login extends CommonAPI {
         Assert.assertTrue(flag);
 
     }
+    public void clickPrivacyAndSecurity(){
+        privacyAndSecurity();
+        clickOnElement("footer_bofa_privacy_and_security");
+        Boolean flag = driver.findElement(By.className("cnx-regular")).isDisplayed();
+        Assert.assertTrue(flag);
+        clickOnElement("How_we_protect_your_accounts_and_identity");
+
+    }
+    public void clickProtectAccountAndIdentity(){
+        privacyAndSecurity();
+        //clickOnElement("How_we_protect_your_accounts_and_identity");
+        clickOnElement("How_we_protect_your_privacy");
+    }
+    public void clickAccount(){
+        privacyAndSecurity();
+        clickOnElement("How_you_can_help_protect_your_accounts");
+    }
+    public void clickProtectIdentity(){
+        privacyAndSecurity();
+        clickOnElement("How_you_can_help_protect_your_identity");
+    }
+    public void clickAvoidScam(){
+        privacyAndSecurity();
+        clickOnElement("How_you_can_identify_and_avoid_scams");
+
+    }
+
 
 
 }
