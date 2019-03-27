@@ -364,6 +364,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.run Maven" />
+      <item itemvalue="TestNG./Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" />
