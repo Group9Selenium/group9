@@ -115,10 +115,10 @@ public class CommonAPI {
         driver.get(url);
         //driver.manage().window().maximize();
     }
-    public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
+    public WebDriver getLocalDriver(@Optional("linux") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
-            if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
+            if(OS.equalsIgnoreCase("linux")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriverLinux");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
@@ -126,8 +126,8 @@ public class CommonAPI {
         } else if(browserName.equalsIgnoreCase("chrome-options")){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
-            if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
+            if(OS.equalsIgnoreCase("linux")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriverLinux");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }

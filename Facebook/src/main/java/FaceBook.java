@@ -45,8 +45,8 @@ public class FaceBook extends CommonAPI {
     public static void login() throws InterruptedException {
 
         driver.manage().window().maximize();
-        driver.findElement(By.id("email")).sendKeys("aroussi.nouredine@gmail.com");
-        driver.findElement(By.id("pass")).sendKeys("ANHakim@19872017",Keys.ENTER);
+        driver.findElement(By.id("email")).sendKeys("aaroussi.nouredine@gmail.com");
+        driver.findElement(By.id("pass")).sendKeys("AANHakim@19872017",Keys.ENTER);
         //driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
         System.out.println("Successfully logged in");
         Thread.sleep(1000);
@@ -80,7 +80,7 @@ public class FaceBook extends CommonAPI {
     public static List<String> readExcelFile() throws IOException {
         DataReader dr=new DataReader();
         List<String> list = new ArrayList<String>();
-        String path = "/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/main/data/Excel.xls";//System.getProperty("user.dir")+"/data/Excel.xl";
+        String path = "../Facebook/src/main/data/Excel.xls";//System.getProperty("user.dir")+"/data/Excel.xl";
         System.out.println(path);
         String [] data = dr.fileReader2(path,0);
         for (int i = 1; i < data.length; i++) {

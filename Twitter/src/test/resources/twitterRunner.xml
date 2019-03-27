@@ -5,8 +5,8 @@
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
-    <parameter name="os" value="OS X"/>
-    <parameter name="os_version" value="Sierra"/>
+    <parameter name="os" value="linux"/>
+    <parameter name="os_version" value="linux"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="73.0"/>
     <parameter name="url" value="https://twitter.com/"/>
