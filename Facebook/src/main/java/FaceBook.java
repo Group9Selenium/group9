@@ -193,9 +193,9 @@ public class FaceBook extends CommonAPI {
         WebElement wE = driver.findElement(By.xpath("//span/span/label/input"));
         for (String item:listItems) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+", "+ item);
-            wE.sendKeys(item,Keys.ENTER);
+            wE.sendKeys(item);
             Thread.sleep(1000);
-            driver.findElement(By.xpath("//span/span/label/input")).clear();
+            wE.clear();
             Thread.sleep(500);
         }
     }
@@ -208,9 +208,9 @@ public class FaceBook extends CommonAPI {
         WebElement wE = driver.findElement(By.xpath("//span/span/label/input"));
         for (String item:listItems) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+", "+ item);
-            wE.sendKeys(item,Keys.ENTER);
+            wE.sendKeys(item);
             Thread.sleep(1000);
-            driver.findElement(By.xpath("//span/span/label/input")).clear();
+            wE.clear();
             Thread.sleep(500);
         }
     }

@@ -104,7 +104,7 @@ public class LinkedIn extends CommonAPI {
         for (String name : friendSearch) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + name);
-            driver.findElement(By.xpath("//*[@id='nav-search-artdeco-typeahead,]//input")).sendKeys(name);
+            driver.findElement(By.xpath("//*[@id='nav-search-artdeco-typeahead']//input")).sendKeys(name);
             Thread.sleep(1000);
             driver.findElement(By.xpath("//*[@id='nav-search-artdeco-typeahead']//input")).clear();
         }
@@ -118,9 +118,9 @@ public class LinkedIn extends CommonAPI {
         for (String name : friendSearch) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + name);
-            driver.findElement(By.xpath("search-conversations")).sendKeys(name);
+            driver.findElement(By.xpath("//*[@id='search-conversations']")).sendKeys(name);
             Thread.sleep(1000);
-            driver.findElement(By.xpath("search-conversations")).clear();
+            driver.findElement(By.xpath("//*[@id='search-conversations']")).clear();
         }
     }
 

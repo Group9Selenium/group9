@@ -53,6 +53,7 @@ public class Twitter extends CommonAPI {
     public  void logup() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.findElement(By.xpath("//*[@class='js-nav EdgeButton EdgeButton--medium EdgeButton--primary StaticLoggedOutHomePage-buttonSignup']")).click();
+        Thread.sleep(500);
         driver.findElement(By.xpath("//input[@name='name']")).sendKeys("NourEddine Aroussi");
         driver.findElement(By.xpath("//input[@name='phone_number']")).sendKeys("6467644871");
         Thread.sleep(1000);
@@ -97,7 +98,7 @@ public class Twitter extends CommonAPI {
     public void clickMomentNavBar() throws Exception{
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.findElement(By.xpath("//*[@data-component-context='moments_nav']")).click();
-        List<WebElement> wEList = driver.findElements(By.xpath("//*[@class='MomentGuideNavigation-categories']/li"));
+        List<WebElement> wEList = driver.findElements(By.xpath("//*[@class='MomentGuideNavigation-categories']/li/a"));
         for (WebElement wE :wEList) {
             wE.click();
             Thread.sleep(1000);
