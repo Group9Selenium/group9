@@ -1,4 +1,5 @@
 import base.CommonAPI;
+import org.apache.poi.ss.formula.ThreeDEval;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -53,6 +54,7 @@ public class Twitter extends CommonAPI {
     public  void logup() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.findElement(By.xpath("//*[@class='js-nav EdgeButton EdgeButton--medium EdgeButton--primary StaticLoggedOutHomePage-buttonSignup']")).click();
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//input[@name='name']")).sendKeys("NourEddine Aroussi");
         driver.findElement(By.xpath("//input[@name='phone_number']")).sendKeys("6467644871");
         Thread.sleep(1000);
