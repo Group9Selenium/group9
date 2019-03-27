@@ -14,7 +14,7 @@
     <test name = "Amazon Runner">
         <classes>
            <!-- <class name="TestFaceBook"/>-->
-            <class name="testAmazonPackage.TestAmazon"/>
+            <class name="TestCreateAccount"/>
 
         </classes>
     </test>

@@ -2,37 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f6a71c-3887-463d-bbbb-bed9a39ad4f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/src/main/java/amazonpages/CreateAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/data/Excel.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group9.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/LinkedIn.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/data/Excel.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/Twitter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/main/data/Excel.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,13 +23,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Group9$TestCreateAccount_EnterNameOnly.ic" NAME="TestCreateAccount.EnterNameOnly Coverage Results" MODIFIED="1553709812903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="-1662">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3111#3112#0" expanded="true" />
+                <element signature="e#3141#3142#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,10 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonpages/CreateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="358" column="16" selection-start-line="358" selection-start-column="16" selection-end-line="358" selection-end-column="16" />
+            <state relative-caret-position="629">
+              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,38 +64,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="186" column="8" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
+            <state relative-caret-position="311">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4569#4570#0" expanded="true" />
-                <element signature="e#4605#4606#0" expanded="true" />
-                <element signature="e#5015#5016#0" expanded="true" />
-                <element signature="e#5050#5051#0" expanded="true" />
-                <element signature="e#5126#5127#0" expanded="true" />
-                <element signature="e#5159#5160#0" expanded="true" />
-                <element signature="e#5232#5233#0" expanded="true" />
-                <element signature="e#5267#5268#0" expanded="true" />
-                <element signature="e#5348#5349#0" expanded="true" />
-                <element signature="e#5383#5384#0" expanded="true" />
-                <element signature="e#5868#5869#0" expanded="true" />
-                <element signature="e#5901#5902#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,12 +134,14 @@
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmzonRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonpages/CreateAccount.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java" />
       </list>
     </option>
   </component>
@@ -229,6 +207,12 @@
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
               <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,16 +260,48 @@
               <item name="Amazon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testAmazonPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="browser-driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +312,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553626608093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553711586869" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -354,6 +370,18 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="TestCreateAccount.EnterNameOnly" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCreateAccount" />
+      <option name="METHOD_NAME" value="EnterNameOnly" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
@@ -367,6 +395,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" />
+        <item itemvalue="TestNG.TestCreateAccount.EnterNameOnly" />
       </list>
     </recent_temporary>
   </component>
@@ -384,41 +413,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 30m 39s.xml">
+    <history-entry file="TestCreateAccount_EnterNameOnly - 2019.03.27 at 14h 03m 40s.xml">
+      <configuration name="TestCreateAccount.EnterNameOnly" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestCreateAccount_EnterNameOnly - 2019.03.27 at 14h 04m 23s.xml">
+      <configuration name="TestCreateAccount.EnterNameOnly" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.27 at 14h 09m 03s.xml">
       <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 34m 14s.xml">
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.27 at 14h 10m 00s.xml">
       <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 34m 45s.xml">
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.27 at 14h 14m 47s.xml">
       <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 35m 40s.xml">
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.27 at 14h 19m 36s.xml">
       <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 36m 31s.xml">
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.27 at 14h 23m 15s.xml">
       <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 38m 43s.xml">
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.27 at 14h 24m 11s.xml">
       <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 41m 58s.xml">
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.27 at 14h 28m 37s.xml">
       <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 43m 40s.xml">
-      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 45m 57s.xml">
-      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 50m 51s.xml">
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.27 at 14h 29m 47s.xml">
       <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1439" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20758769" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20758769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -428,7 +458,7 @@
       <window_info id="DB Browser" order="7" weight="0.18110237" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,6 +468,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996421" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010737" side_tool="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32999283" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24982105" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -504,6 +535,36 @@
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -512,7 +573,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/secret.properties" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.0.1/poi-4.0.1.jar!/org/apache/poi/util/POILogFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -556,13 +616,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
     <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInRunner.xml" />
@@ -665,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
@@ -700,48 +746,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#3141#3142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="358" column="16" selection-start-line="358" selection-start-column="16" selection-end-line="358" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="323">
           <caret line="186" column="8" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -757,6 +764,74 @@
             <element signature="e#5383#5384#0" expanded="true" />
             <element signature="e#5868#5869#0" expanded="true" />
             <element signature="e#5901#5902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1662">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3111#3112#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonpages/CreateAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15412" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestCreateAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,7 +888,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Group9</last-edited>
+          <last-edited>Amazon</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
