@@ -10,7 +10,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
+        <module name="Facebook" />
         <module name="Generic" />
+        <module name="LinkedIn" />
+        <module name="Twitter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

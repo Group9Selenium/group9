@@ -11,6 +11,9 @@
     <modules>
         <module>Generic</module>
         <module>Amazon</module>
+        <module>Facebook</module>
+        <module>LinkedIn</module>
+        <module>Twitter</module>
     </modules>
 
     <build>

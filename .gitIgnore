@@ -1,4 +1,4 @@
-.class
+*.class
 ### macOS ###
 # General
 .DS_Store

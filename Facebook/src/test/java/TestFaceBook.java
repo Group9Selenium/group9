@@ -8,7 +8,7 @@ import java.util.List;
 
 public class TestFaceBook extends FaceBook {
 
-    @Test
+    /*@Test
     public void runGetTitle(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         System.out.println(getTitle());
@@ -46,13 +46,13 @@ public class TestFaceBook extends FaceBook {
     public  void runNewFeed() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         newFeed();
-    }
+    }*/
     @Test
     public  void runSearchFriends() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchFriends();
     }
-    @Test
+    /*@Test
     public  void runLefNavBartop() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         leftNavBartop();
@@ -109,5 +109,5 @@ public class TestFaceBook extends FaceBook {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickMarketplaceNavBar();
     }
-
+*/
 }

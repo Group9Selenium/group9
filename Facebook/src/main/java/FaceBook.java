@@ -78,7 +78,7 @@ public class FaceBook extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         List<String> listFriends= ConnectToSqlDB.readDataBase("Friends","Names");
-        //System.out.println(listFriends);
+        System.out.println(listFriends);
         for (String str:listFriends) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+" ,"+ str);
             driver.findElement(By.cssSelector(".\\_1frb")).sendKeys(str, Keys.ENTER);
