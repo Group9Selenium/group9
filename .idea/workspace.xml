@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f6a71c-3887-463d-bbbb-bed9a39ad4f5" name="Default Changelist" comment="" />
+    <list default="true" id="b3f6a71c-3887-463d-bbbb-bed9a39ad4f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/Facebook.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/main/data/Excel.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedIn/LinkedIn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedIn/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/data/Excel.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twitter/Twitter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twitter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twitter/src/main/data/Excel.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Facebook/target/" />
     <ignored path="$PROJECT_DIR$/LinkedIn/target/" />
     <ignored path="$PROJECT_DIR$/Twitter/target/" />
+    <ignored path="$PROJECT_DIR$/Amazon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +49,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="358" column="16" selection-start-line="358" selection-start-column="16" selection-end-line="358" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,6 +125,27 @@
                 <element signature="imports" expanded="true" />
               </folding>
 >>>>>>> .merge_file_uDL1a2
+=======
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="186" column="8" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4569#4570#0" expanded="true" />
+                <element signature="e#4605#4606#0" expanded="true" />
+                <element signature="e#5015#5016#0" expanded="true" />
+                <element signature="e#5050#5051#0" expanded="true" />
+                <element signature="e#5126#5127#0" expanded="true" />
+                <element signature="e#5159#5160#0" expanded="true" />
+                <element signature="e#5232#5233#0" expanded="true" />
+                <element signature="e#5267#5268#0" expanded="true" />
+                <element signature="e#5348#5349#0" expanded="true" />
+                <element signature="e#5383#5384#0" expanded="true" />
+                <element signature="e#5868#5869#0" expanded="true" />
+                <element signature="e#5901#5902#0" expanded="true" />
+              </folding>
+>>>>>>> Monzur-M
             </state>
           </provider>
         </entry>
@@ -59,6 +158,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>homePageAmazon</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +178,7 @@
         <option value="$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pom.xml" />
 <<<<<<< .merge_file_v4UaIR
         <option value="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
@@ -81,10 +186,15 @@
         <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
 =======
 >>>>>>> .merge_file_uDL1a2
+=======
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
+        <option value="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" />
+>>>>>>> Monzur-M
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
         <option value="$PROJECT_DIR$/Facebook/pom.xml" />
         <option value="$PROJECT_DIR$/Twitter/pom.xml" />
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
 =======
@@ -96,6 +206,18 @@
         <option value="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" />
         <option value="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
 >>>>>>> .merge_file_uDL1a2
+=======
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmzonRunner.xml" />
+        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java" />
+>>>>>>> Monzur-M
       </list>
     </option>
   </component>
@@ -109,25 +231,42 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Group9" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Group9" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Group9" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="24" />
     <option name="width" value="1439" />
-    <option name="height" value="835" />
+    <option name="height" value="822" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,38 +277,54 @@
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="Twitter" type="462c0819:PsiDirectoryNode" />
 >>>>>>> .merge_file_uDL1a2
+=======
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Monzur-M
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="Twitter" type="462c0819:PsiDirectoryNode" />
 >>>>>>> .merge_file_uDL1a2
+=======
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Monzur-M
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="Twitter" type="462c0819:PsiDirectoryNode" />
 >>>>>>> .merge_file_uDL1a2
+=======
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Monzur-M
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Monzur-M
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -183,6 +338,7 @@
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -195,39 +351,81 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
 >>>>>>> .merge_file_uDL1a2
+=======
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="amazonpages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Monzur-M
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
               <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testAmazonPackage" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Monzur-M
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
 >>>>>>> .merge_file_uDL1a2
+=======
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Monzur-M
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553599108868" />
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553627893197" />
 >>>>>>> .merge_file_uDL1a2
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553626608093" />
+>>>>>>> Monzur-M
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -235,6 +433,10 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Amazon/src/test" />
+      <recent name="$PROJECT_DIR$/Amazon/src/test/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Facebook/src/main/data" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java" />
@@ -255,7 +457,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml">
     <configuration name="run Maven" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -281,29 +483,9 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" type="TestNG" nameIsGenerated="true">
-      <module name="Facebook" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" type="TestNG" nameIsGenerated="true">
-      <module name="LinkedIn" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" type="TestNG" nameIsGenerated="true">
-      <module name="Twitter" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" />
+    <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -313,10 +495,13 @@
     </configuration>
     <list>
       <item itemvalue="Maven.run Maven" />
-      <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" />
-      <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" />
-      <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" />
+      <item itemvalue="TestNG./Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -332,6 +517,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 10m 21s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -361,17 +547,51 @@
     </history-entry>
     <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.26 at 15h 16m 06s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
+=======
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 30m 39s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 34m 14s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 34m 45s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 35m 40s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 36m 31s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 38m 43s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 41m 58s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 43m 40s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 45m 57s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_monzurmiah_Desktop_Group9_Amazon_src_test_resources_AmazonRunner_xml - 2019.03.26 at 14h 50m 51s.xml">
+      <configuration name="/Users/monzurmiah/Desktop/Group9/Amazon/src/test/resources/AmazonRunner.xml" configurationId="TestNG" />
+>>>>>>> Monzur-M
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1439" height="835" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1439" height="822" extended-state="0" />
     <layout>
+<<<<<<< HEAD
 <<<<<<< .merge_file_v4UaIR
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13958482" />
 =======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1424481" />
 >>>>>>> .merge_file_uDL1a2
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20758769" />
+>>>>>>> Monzur-M
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -381,16 +601,16 @@
       <window_info id="DB Browser" order="7" weight="0.18110237" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996421" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996421" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010737" side_tool="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24982105" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -400,6 +620,36 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20758769" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="DB Browser" order="7" weight="0.18110237" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996421" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010737" side_tool="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24982105" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.20973514" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -453,20 +703,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.0.1/poi-4.0.1-sources.jar!/org/apache/poi/util/POILogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.0.1/poi-4.0.1-sources.jar!/org/apache/poi/POIDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.0.1/poi-4.0.1-sources.jar!/org/apache/poi/util/POILogFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.0.1/poi-4.0.1-sources.jar!/org/apache/poi/POIDocument.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -478,41 +716,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/TestResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="e#3949#3950#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#writeBack#0;class#DataReader#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/TestResult.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -531,6 +737,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -695,12 +902,138 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+=======
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInRunner.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java" />
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" />
+    <entry file="file://$PROJECT_DIR$/LinkedIn/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" />
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" />
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
+    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/.gitIgnore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestAmazon.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/browser-driver/chromedriver">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#writeBack#0;class#DataReader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/xml/Parser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="326" selection-start-line="326" selection-end-line="326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="294" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/xml/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+>>>>>>> Monzur-M
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="592" selection-start-line="592" selection-end-line="592" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-929">
@@ -708,20 +1041,33 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
+>>>>>>> Monzur-M
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="157">
           <caret line="517" column="28" selection-start-line="517" selection-start-column="28" selection-end-line="517" selection-end-column="28" />
           <folding>
             <element signature="e#3111#3112#0" expanded="true" />
+=======
+        <state relative-caret-position="133">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+>>>>>>> Monzur-M
             <element signature="e#3141#3142#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -752,28 +1098,45 @@
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-<<<<<<< .merge_file_v4UaIR
-    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestAmazontest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#2704#2712#0" expanded="true" />
-            <element signature="e#3121#3129#0" expanded="true" />
-            <element signature="e#5139#5147#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+>>>>>>> Monzur-M
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+<<<<<<< HEAD
+<<<<<<< .merge_file_v4UaIR
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
+=======
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/amazonpages/AmazonHome.java">
+>>>>>>> Monzur-M
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="358" column="16" selection-start-line="358" selection-start-column="16" selection-end-line="358" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-3479">
           <caret line="268" column="30" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
 =======
@@ -789,6 +1152,25 @@
             <element signature="method#readExcelFile#0;class#Twitter#0" />
           </folding>
 >>>>>>> .merge_file_uDL1a2
+=======
+        <state relative-caret-position="563">
+          <caret line="186" column="8" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="e#4605#4606#0" expanded="true" />
+            <element signature="e#5015#5016#0" expanded="true" />
+            <element signature="e#5050#5051#0" expanded="true" />
+            <element signature="e#5126#5127#0" expanded="true" />
+            <element signature="e#5159#5160#0" expanded="true" />
+            <element signature="e#5232#5233#0" expanded="true" />
+            <element signature="e#5267#5268#0" expanded="true" />
+            <element signature="e#5348#5349#0" expanded="true" />
+            <element signature="e#5383#5384#0" expanded="true" />
+            <element signature="e#5868#5869#0" expanded="true" />
+            <element signature="e#5901#5902#0" expanded="true" />
+          </folding>
+>>>>>>> Monzur-M
         </state>
       </provider>
     </entry>
@@ -844,7 +1226,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Twitter</last-edited>
+          <last-edited>Group9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
