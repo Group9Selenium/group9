@@ -17,10 +17,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< .merge_file_v4UaIR
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-3479">
               <caret line="268" column="30" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
+=======
+        <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#logout#0;class#Twitter#0" />
+                <element signature="method#login#0;class#Twitter#0" />
+                <element signature="method#getTopNavBar#0;class#Twitter#0" />
+                <element signature="method#readExcelFile#0;class#Twitter#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> .merge_file_uDL1a2
             </state>
           </provider>
         </entry>
@@ -46,20 +72,30 @@
         <option value="$PROJECT_DIR$/LinkedIn/src/test/resources/xmlRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/resources/xmlRunner.xml" />
         <option value="$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" />
-        <option value="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
-        <option value="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+<<<<<<< .merge_file_v4UaIR
         <option value="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
         <option value="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
+=======
+>>>>>>> .merge_file_uDL1a2
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
         <option value="$PROJECT_DIR$/Facebook/pom.xml" />
         <option value="$PROJECT_DIR$/Twitter/pom.xml" />
+<<<<<<< .merge_file_v4UaIR
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+=======
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" />
+        <option value="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" />
+        <option value="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" />
+        <option value="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
+>>>>>>> .merge_file_uDL1a2
       </list>
     </option>
   </component>
@@ -102,42 +138,82 @@
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .merge_file_uDL1a2
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .merge_file_uDL1a2
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .merge_file_uDL1a2
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .merge_file_uDL1a2
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .merge_file_v4UaIR
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .merge_file_uDL1a2
             </path>
             <path>
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
+<<<<<<< .merge_file_v4UaIR
               <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> .merge_file_uDL1a2
             </path>
           </expand>
           <select />
@@ -147,7 +223,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< .merge_file_v4UaIR
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553599108868" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553627893197" />
+>>>>>>> .merge_file_uDL1a2
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -156,11 +236,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Facebook/src/main/data" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java" />
       <recent name="$PROJECT_DIR$/Twitter/src/main/data" />
       <recent name="$PROJECT_DIR$/Twitter/src/test/resources" />
       <recent name="$PROJECT_DIR$/LinkedIn/src/main/data" />
-      <recent name="$PROJECT_DIR$/LinkedIn/src/test/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,34 +332,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.24 at 13h 51m 13s.xml">
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 10m 21s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.24 at 16h 26m 39s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.24 at 16h 45m 51s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.24 at 16h 49m 52s.xml">
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 11m 22s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.24 at 16h 51m 00s.xml">
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 11m 48s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 12m 05s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 13m 39s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 16m 34s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.26 at 14h 20m 22s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.26 at 15h 02m 45s.xml">
+      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.26 at 15h 11m 35s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.24 at 16h 53m 35s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Facebook_src_test_resources_faceBookRunner_xml - 2019.03.24 at 17h 12m 01s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_LinkedIn_src_test_resources_linkedInRunner_xml - 2019.03.24 at 17h 12m 24s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.24 at 17h 12m 40s.xml">
-      <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.24 at 17h 52m 51s.xml">
+    <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.26 at 15h 16m 06s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -287,7 +367,11 @@
     <frame x="0" y="23" width="1439" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< .merge_file_v4UaIR
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13958482" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1424481" />
+>>>>>>> .merge_file_uDL1a2
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -326,22 +410,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java</url>
-          <line>140</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java</url>
-          <line>73</line>
+          <line>88</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java</url>
-          <line>61</line>
+          <line>35</line>
           <properties />
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -440,70 +524,10 @@
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="method#logout#0;class#Twitter#0" />
-            <element signature="method#login#0;class#Twitter#0" />
-            <element signature="method#getTopNavBar#0;class#Twitter#0" />
-            <element signature="method#readExcelFile#0;class#Twitter#0" />
-            <element signature="method#clickTopNavBar#0;class#Twitter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="615" selection-start-line="615" selection-end-line="615" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#1524#1532#0" expanded="true" />
-            <element signature="e#2392#2400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isLogedin#0;class#LinkedIn#0" />
-            <element signature="method#logout#0;class#LinkedIn#0" />
-            <element signature="method#login#0;class#LinkedIn#0" />
-            <element signature="method#getTopNavBar#0;class#LinkedIn#0" />
-            <element signature="method#readExcelFile#0;class#LinkedIn#0" />
-            <element signature="method#clickTopNavBartop#0;class#LinkedIn#0" />
-            <element signature="method#searchJobs#0;class#LinkedIn#0" />
-            <element signature="method#uploadFile#0;class#LinkedIn#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,7 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" />
     <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -540,42 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="33" column="133" selection-start-line="33" selection-start-column="133" selection-end-line="33" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,6 +587,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< .merge_file_v4UaIR
+    <entry file="file://$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" />
+    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
+=======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -615,12 +606,157 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml">
+>>>>>>> .merge_file_uDL1a2
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Web-Automation-November2018-amazon/RestAPI/src/test/java/rest/AllEmployeeAPI.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< .merge_file_v4UaIR
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="216" column="4" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getTitle#0;class#FaceBook#0" />
+            <element signature="method#closePapup#0;class#FaceBook#0" />
+            <element signature="method#goHomePage#0;class#FaceBook#0" />
+            <element signature="method#isLogedin#0;class#FaceBook#0" />
+            <element signature="method#logup#0;class#FaceBook#0" />
+            <element signature="method#logout#0;class#FaceBook#0" />
+            <element signature="method#login#0;class#FaceBook#0" />
+            <element signature="method#newFeed#0;class#FaceBook#0" />
+            <element signature="method#searchFriends#0;class#FaceBook#0" />
+            <element signature="method#leftNavBartop#0;class#FaceBook#0" />
+            <element signature="method#readExcelFile#0;class#FaceBook#0" />
+            <element signature="method#clickLeftNavBartop#0;class#FaceBook#0" />
+            <element signature="method#isNumeric#0;class#FaceBook#0" />
+            <element signature="method#leftNavBarBottum#0;class#FaceBook#0" />
+            <element signature="method#uploadFile#0;class#FaceBook#0" />
+            <element signature="method#searchMarketPlace#0;class#FaceBook#0" />
+            <element signature="method#searchMarketPlaceGroups#0;class#FaceBook#0" />
+            <element signature="method#searchMarketPlaceGroups#1;class#FaceBook#0" />
+            <element signature="method#marketplaceNavBar#0;class#FaceBook#0" />
+            <element signature="method#clickMarketplaceNavBar#0;class#FaceBook#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="98" column="34" lean-forward="true" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> .merge_file_uDL1a2
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Web-AutomationJan2019-tabledata/Pnt/src/main/java/authentication/LogInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-929">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="517" column="28" selection-start-line="517" selection-start-column="28" selection-end-line="517" selection-end-column="28" />
+          <folding>
+            <element signature="e#3111#3112#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="187" column="53" selection-start-line="187" selection-start-column="53" selection-end-line="187" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getTitle#0;class#LinkedIn#0" />
+            <element signature="method#isLogedin#0;class#LinkedIn#0" />
+            <element signature="method#logout#0;class#LinkedIn#0" />
+            <element signature="method#login#0;class#LinkedIn#0" />
+            <element signature="method#goHomePage#0;class#LinkedIn#0" />
+            <element signature="method#getTopNavBar#0;class#LinkedIn#0" />
+            <element signature="method#readExcelFile#0;class#LinkedIn#0" />
+            <element signature="method#clickTopNavBartop#0;class#LinkedIn#0" />
+            <element signature="method#searchJobs#0;class#LinkedIn#0" />
+            <element signature="method#searchMyNetwork#1;class#LinkedIn#0" />
+            <element signature="method#searchJobs#1;class#LinkedIn#0" />
+            <element signature="method#uploadFile#0;class#LinkedIn#0" />
+            <element signature="method#logup#0;class#LinkedIn#0" />
+            <element signature="method#dropDownListItems#0;class#LinkedIn#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< .merge_file_v4UaIR
     <entry file="file://$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
@@ -640,6 +776,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3479">
           <caret line="268" column="30" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
+=======
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#logout#0;class#Twitter#0" />
+            <element signature="method#login#0;class#Twitter#0" />
+            <element signature="method#getTopNavBar#0;class#Twitter#0" />
+            <element signature="method#readExcelFile#0;class#Twitter#0" />
+          </folding>
+>>>>>>> .merge_file_uDL1a2
         </state>
       </provider>
     </entry>

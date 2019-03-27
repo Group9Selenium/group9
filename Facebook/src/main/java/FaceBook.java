@@ -3,33 +3,48 @@ import databases.ConnectToSqlDB;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 import utility.DataReader;
 
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.*;
 
 
 public class FaceBook extends CommonAPI {
 
-    public static String  getTitle(){
+    public  String  getTitle(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return driver.getTitle();
     }
-    public static void closePapup(){
+    public  void closePapup(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
         if (driver.findElement(By.xpath("//*[@class='_51-u']")).isDisplayed())
         {driver.findElement(By.xpath("//*[@class='_51-u']")).click();}
     }
-    public static void goHomePage(){
+    public  void goHomePage(){
        // closePapup();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.findElement(By.xpath("//*[@class='_2s25']")).click();
     }
-    public static Boolean isLogedin(){
-        //System.out.println(driver.getTitle());
+    public  Boolean isLogedin(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+" ,"+driver.getTitle().equals("Facebook - Log In or Sign Up"));
         return driver.getTitle().equals("Facebook - Log In or Sign Up");
     }
-    public static void logout() throws InterruptedException {
+    public void logup() throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName()+": " +CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        driver.findElement(By.xpath("//*[@name='firstname']")).sendKeys("Testuser",Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("TestUser",Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("TestUser@hotmail.com");
+        driver.findElement(By.xpath("//*[@name='reg_email_confirmation__']")).sendKeys("TestUser@hotmail.com",Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("TestUser-users",Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("Jan",Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("1",Keys.TAB);
+        driver.switchTo().activeElement().sendKeys("2000",Keys.TAB);
+        Thread.sleep(3000);
+    }
+    public  void logout() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         if (isLogedin()==false){
             driver.findElement(By.xpath("//div[@id='userNavigationLabel']")).click();
             Thread.sleep(2000);
@@ -42,57 +57,64 @@ public class FaceBook extends CommonAPI {
         }
 
     }
-    public static void login() throws InterruptedException {
-
+    public  void login() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
         driver.findElement(By.id("email")).sendKeys("aroussi.nouredine@gmail.com");
-        driver.findElement(By.id("pass")).sendKeys("ANHakim@19872017",Keys.ENTER);
+        driver.findElement(By.id("pass")).sendKeys("NourEddine@2019",Keys.ENTER);
         //driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
         System.out.println("Successfully logged in");
         Thread.sleep(1000);
         driver.findElement(By.cssSelector(".layerCancel")).click();
         Thread.sleep(1000);
     }
-    public static void newFeed() throws InterruptedException {
+    public  void newFeed() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         driver.findElement(By.cssSelector("#navItem_4748854339 .linkWrap")).click();
         Thread.sleep(1000);
     }
-    public static void searchFriends() throws Exception {
+    public  void searchFriends() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
-        List<String> listFriends= ConnectToSqlDB.readDataBase("ItemList","items");
+        List<String> listFriends= ConnectToSqlDB.readDataBase("Friends","Names");
+        //System.out.println(listFriends);
         for (String str:listFriends) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+" ,"+ str);
             driver.findElement(By.cssSelector(".\\_1frb")).sendKeys(str, Keys.ENTER);
             Thread.sleep(1000);
             driver.findElement(By.cssSelector(".\\_1frb")).clear();
         }
     }
-    public static List<String> leftNavBartop() throws InterruptedException {
+    public  List<String> leftNavBartop() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         List<String> list =new ArrayList<String>();
         List<WebElement> listWE =  driver.findElements(By.xpath("//*[@id='universalNav']//a/div"));
         for (WebElement wE:listWE) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+" ,"+wE.getText());
             System.out.println(wE.getText());
             list.add(wE.getText());
         }
         return list;
     }
-    public static List<String> readExcelFile() throws IOException {
+    public  List<String> readExcelFile(int sheetNbr) throws IOException {
         DataReader dr=new DataReader();
         List<String> list = new ArrayList<String>();
         String path = "/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/main/data/Excel.xls";//System.getProperty("user.dir")+"/data/Excel.xl";
         System.out.println(path);
-        String [] data = dr.fileReader2(path,0);
+        String [] data = dr.fileReader2(path,sheetNbr);
         for (int i = 1; i < data.length; i++) {
             System.out.println(data[i]);
             if (data[i]!=null)list.add(data[i]);
         }
         return list;
     }
-    public static void clickLeftNavBartop() throws InterruptedException, IOException {
-        List<String> btnAction=readExcelFile();
+    public  void clickLeftNavBartop() throws InterruptedException, IOException {
+        List<String> btnAction=readExcelFile(0);
         login();
             for (String act:btnAction) {
+                TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+" ,"+act);
                 if (act.equals("News Feed")){
                     driver.findElement(By.cssSelector("#navItem_4748854339 .linkWrap")).click();
                     Thread.sleep(1000);
@@ -117,32 +139,104 @@ public class FaceBook extends CommonAPI {
                 goHomePage();
             }
     }
-    public static boolean isNumeric(String str) {
+    public  boolean isNumeric(String str) {
         for (char c : str.toCharArray())
         {
             if (!Character.isDigit(c)) return false;
         }
         return true;
     }
-    public static List<String> leftNavBarBottum () throws InterruptedException {
+    public  List<String> leftNavBarBottum () throws InterruptedException {
         List<String> list =new ArrayList<String>();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         driver.findElement(By.xpath("//*[@id='appsNav']/ul/li[22]/a")).click();
         List<WebElement> wEList = driver.findElements(By.xpath("//*[@id='appsNav']//li"));
         for (WebElement wE: wEList) {
-
-            System.out.println(wE.getText()+" "+ isNumeric(wE.getText()));
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+" ,"+wE.getText());
+            //System.out.println(wE.getText()+" "+ isNumeric(wE.getText()));
             if (!isNumeric(wE.getText()))
             list.add(wE.getText());
         }
         return list;
     }
-    public static void uploadFile() throws Exception{
+    public void uploadFile() throws Exception{
+
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         login();
         driver.findElement(By.cssSelector(".sx_5c186e")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//div[@class ='_3jk']/input"));
         Thread.sleep(1000);
         //driver.findElement(By.xpath("")).click();
+    }
+    public void searchMarketPlace() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        List<String> listItems= ConnectToSqlDB.readDataBase("ItemList","items");
+        driver.findElement(By.xpath("//*[@id='navItem_1606854132932955']/a/div")).click();
+        WebElement wE = driver.findElement(By.xpath("//span/span/label/input"));
+        for (String item:listItems) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+", "+ item);
+            wE.sendKeys(item,Keys.ENTER);
+            Thread.sleep(1000);
+            driver.findElement(By.xpath("//span/span/label/input")).clear();
+            Thread.sleep(500);
+        }
+    }
+    public void searchMarketPlaceGroups() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        List<String> listItems= ConnectToSqlDB.readDataBase("ItemList","items");
+        driver.findElement(By.xpath("//*[@id='navItem_1606854132932955']/a/div")).click();
+        driver.findElement(By.xpath("//*[@title='Groups']")).click();
+        WebElement wE = driver.findElement(By.xpath("//span/span/label/input"));
+        for (String item:listItems) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+", "+ item);
+            wE.sendKeys(item,Keys.ENTER);
+            Thread.sleep(1000);
+            driver.findElement(By.xpath("//span/span/label/input")).clear();
+            Thread.sleep(500);
+        }
+    }
+    public void searchMarketPlaceStores() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        List<String> listItems= ConnectToSqlDB.readDataBase("ItemList","items");
+        driver.findElement(By.xpath("//*[@id='navItem_1606854132932955']/a/div")).click();
+        driver.findElement(By.xpath("//*[@title='Stores']")).click();
+        WebElement wE = driver.findElement(By.xpath("//span/span/label/input"));
+        for (String item:listItems) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+", "+ item);
+            wE.sendKeys(item,Keys.ENTER);
+            Thread.sleep(1000);
+            driver.findElement(By.xpath("//span/span/label/input")).clear();
+            Thread.sleep(500);
+        }
+    }
+    public List<String> marketplaceNavBar() throws Exception{
+        List<String> list = new ArrayList<String>();
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        login();
+        driver.findElement(By.xpath("//*[@id='navItem_1606854132932955']/a/div")).click();
+        List<WebElement> listWE=driver.findElements(By.xpath("//*[@class='_k01 _1itu _2pi2']"));
+        for (WebElement wE:listWE) {
+            list.add(wE.getText());
+        }
+        return list;
+    }
+    public void clickMarketplaceNavBar() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        List<String> btnAction=readExcelFile(1);
+        login();
+        driver.findElement(By.xpath("//*[@id='navItem_1606854132932955']/a/div")).click();
+        List<WebElement> listWE=driver.findElements(By.xpath("//*[@class='_k01 _1itu _2pi2']"));
+        for (WebElement wE:listWE){
+            for ( String act:btnAction) {
+                TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName())+ ", "+ act);
+                if (act.equals(wE.getText())) wE.click();
+            }
+            Thread.sleep(1000);
+        }
     }
 }
