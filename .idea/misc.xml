@@ -12,6 +12,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
         <option value="$PROJECT_DIR$/Facebook/pom.xml" />
         <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
         <option value="$PROJECT_DIR$/Twitter/pom.xml" />
