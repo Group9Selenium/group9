@@ -1,0 +1,9 @@
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/reporting/TestLogger.java
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/base/CommonAPI.java
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/utility/DataReader.java
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/reporting/ExtentTestManager.java
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/reporting/ApplicationLog.java
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/databases/ConnectToSqlDB.java
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/databases/ConnectToMongoDB.java
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/databases/User.java
+/home/stof/IdeaProjects/GroupProject/Generic/src/main/java/reporting/ExtentManager.java
