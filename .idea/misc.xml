@@ -9,6 +9,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
+        <option value="$PROJECT_DIR$/LinkedIn/pom.xml" />
+        <option value="$PROJECT_DIR$/Twitter/pom.xml" />
         <option value="$PROJECT_DIR$/ebay/pom.xml" />
       </set>
     </option>

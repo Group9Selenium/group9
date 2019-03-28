@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -46,46 +46,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestPageElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestRegisterUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="165">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestShopByCategory.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSearchEbay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSignInUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -94,16 +103,7 @@
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -135,7 +135,6 @@
         <option value="$PROJECT_DIR$/ebay/src/test/java/EBayElectronicsPage/TestShopByCategory.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/EBayFashionPage/TestSellOnEbay.java" />
         <option value="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Twitter/pom.xml" />
         <option value="$PROJECT_DIR$/Ebay/pom.xml" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestExploreInterest.java" />
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSignInUser.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/secret.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml" />
       </list>
     </option>
@@ -303,17 +303,7 @@
               <item name="Ebay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="EbayFashion" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
@@ -396,61 +386,6 @@
             <path>
               <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -492,124 +427,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedIn" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -617,7 +434,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553752990655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553754349145" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -671,6 +488,41 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="TestRegisterUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomePage" />
+      <option name="MAIN_CLASS_NAME" value="HomePage.TestRegisterUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchEbay.searchItems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomePage" />
+      <option name="MAIN_CLASS_NAME" value="HomePage.TestSearchEbay" />
+      <option name="METHOD_NAME" value="searchItems" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSearchPage.testSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
@@ -689,47 +541,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShopByCategory" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSignInUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EbayElectronics.*" />
+          <option name="PATTERN" value="HomePage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="EbayElectronics" />
-      <option name="MAIN_CLASS_NAME" value="EbayElectronics.TestShopByCategory" />
+      <option name="PACKAGE_NAME" value="HomePage" />
+      <option name="MAIN_CLASS_NAME" value="HomePage.TestSignInUser" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestShopByCategory.testCellPhone" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EbayElectronics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="EbayElectronics" />
-      <option name="MAIN_CLASS_NAME" value="EbayElectronics.TestShopByCategory" />
-      <option name="METHOD_NAME" value="testCellPhone" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTwitter.runGetTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Twitter" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTwitter" />
-      <option name="METHOD_NAME" value="runGetTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -781,19 +603,19 @@
       <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" />
       <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" />
       <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" />
-      <item itemvalue="TestNG.TestShopByCategory" />
-      <item itemvalue="TestNG.TestShopByCategory.testCellPhone" />
-      <item itemvalue="TestNG.TestSearchPage.testSearchPage" />
-      <item itemvalue="TestNG.TestTwitter.runGetTitle" />
       <item itemvalue="TestNG./home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" />
+      <item itemvalue="TestNG.TestRegisterUser" />
+      <item itemvalue="TestNG.TestSearchEbay.searchItems" />
+      <item itemvalue="TestNG.TestSignInUser" />
+      <item itemvalue="TestNG.TestSearchPage.testSearchPage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" />
-        <item itemvalue="TestNG.TestTwitter.runGetTitle" />
         <item itemvalue="TestNG.TestSearchPage.testSearchPage" />
-        <item itemvalue="TestNG.TestShopByCategory" />
-        <item itemvalue="TestNG.TestShopByCategory.testCellPhone" />
+        <item itemvalue="TestNG.TestSignInUser" />
+        <item itemvalue="TestNG.TestSearchEbay.searchItems" />
+        <item itemvalue="TestNG.TestRegisterUser" />
       </list>
     </recent_temporary>
   </component>
@@ -811,24 +633,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestShopByCategory_testCellPhone - 2019.03.27 at 23h 59m 00s.xml">
-      <configuration name="TestShopByCategory.testCellPhone" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSearchPage - 2019.03.27 at 23h 59m 09s.xml">
-      <configuration name="TestSearchPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestShopByCategory_testCellPhone - 2019.03.28 at 01h 31m 23s.xml">
-      <configuration name="TestShopByCategory.testCellPhone" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCategory_testViewLogo - 2019.03.28 at 01h 32m 08s.xml">
-      <configuration name="TestCategory.testViewLogo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestShopByCategory_testCellPhone - 2019.03.28 at 01h 32m 24s.xml">
-      <configuration name="TestShopByCategory.testCellPhone" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestShopByCategory - 2019.03.28 at 01h 32m 34s.xml">
-      <configuration name="TestShopByCategory" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestSearchPage_testSearchPage - 2019.03.28 at 01h 33m 06s.xml">
       <configuration name="TestSearchPage.testSearchPage" configurationId="TestNG" />
     </history-entry>
@@ -841,12 +645,30 @@
     <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.28 at 02h 04m 24s.xml">
       <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestRegisterUser - 2019.03.28 at 02h 20m 09s.xml">
+      <configuration name="TestRegisterUser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearchEbay_searchItems - 2019.03.28 at 02h 22m 18s.xml">
+      <configuration name="TestSearchEbay.searchItems" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSignInUser - 2019.03.28 at 02h 22m 30s.xml">
+      <configuration name="TestSignInUser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearchPage_testSearchPage - 2019.03.28 at 02h 22m 42s.xml">
+      <configuration name="TestSearchPage.testSearchPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.28 at 02h 23m 59s.xml">
+      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.28 at 02h 25m 51s.xml">
+      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1024" y="25" width="1366" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26403642" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26858878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -857,7 +679,7 @@
       <window_info anchor="bottom" id="Thumbnails" weight="0.053003535" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.3392226" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.3392226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -941,13 +763,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ebay/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayElectronics/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1186,34 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSignInUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSearchEbay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestRegisterUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestPageElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayMotors/TestEbayMotors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1249,20 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1293,15 +1066,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestRegisterUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSearchEbay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSignInUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestPageElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
