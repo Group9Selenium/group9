@@ -19,28 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -67,12 +49,12 @@
         <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -81,11 +63,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestShopByCategory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -94,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -103,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCategory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -128,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ebay/src/main/java/EBayElectronics/ShopByCategory.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/EBayElectronics/ShopElectronicsSalesEvents.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/EBayFashion/SellOnEbay.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/DataDrivenDataReader/TestExcelSearch.java" />
@@ -179,6 +178,7 @@
         <option value="$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSignInUser.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/secret.properties" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -617,7 +617,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553751926935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553752990655" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -645,7 +645,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml">
+  <component name="RunManager" selected="TestNG./home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml">
     <configuration name="run Maven" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -670,24 +670,6 @@
         </option>
       </MavenSettings>
       <method v="2" />
-    </configuration>
-    <configuration name="TestCategory.testViewLogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EbayFashion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="EbayFashion" />
-      <option name="MAIN_CLASS_NAME" value="EbayFashion.TestCategory" />
-      <option name="METHOD_NAME" value="testViewLogo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="TestSearchPage.testSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
@@ -784,6 +766,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.run Maven" />
       <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" />
@@ -791,17 +783,17 @@
       <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" />
       <item itemvalue="TestNG.TestShopByCategory" />
       <item itemvalue="TestNG.TestShopByCategory.testCellPhone" />
-      <item itemvalue="TestNG.TestCategory.testViewLogo" />
       <item itemvalue="TestNG.TestSearchPage.testSearchPage" />
       <item itemvalue="TestNG.TestTwitter.runGetTitle" />
+      <item itemvalue="TestNG./home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" />
         <item itemvalue="TestNG.TestTwitter.runGetTitle" />
         <item itemvalue="TestNG.TestSearchPage.testSearchPage" />
         <item itemvalue="TestNG.TestShopByCategory" />
         <item itemvalue="TestNG.TestShopByCategory.testCellPhone" />
-        <item itemvalue="TestNG.TestCategory.testViewLogo" />
       </list>
     </recent_temporary>
   </component>
@@ -819,9 +811,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestShopByCategory - 2019.03.27 at 23h 55m 00s.xml">
-      <configuration name="TestShopByCategory" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestShopByCategory_testCellPhone - 2019.03.27 at 23h 59m 00s.xml">
       <configuration name="TestShopByCategory.testCellPhone" configurationId="TestNG" />
     </history-entry>
@@ -849,12 +838,15 @@
     <history-entry file="_Users_anour-mbp_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.03.28 at 01h 36m 16s.xml">
       <configuration name="/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.28 at 02h 04m 24s.xml">
+      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1024" y="25" width="1366" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26403642" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26403642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -865,7 +857,7 @@
       <window_info anchor="bottom" id="Thumbnails" weight="0.053003535" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.3392226" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.3392226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -949,20 +941,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="7" selection-start-line="13" selection-start-column="4" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1260,28 +1238,28 @@
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestShopByCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1302,7 +1280,7 @@
     <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1310,6 +1288,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
