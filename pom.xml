@@ -13,7 +13,7 @@
         <module>Facebook</module>
         <module>LinkedIn</module>
         <module>Twitter</module>
-        <module>ebay</module>
+        <module>Ebay</module>
     </modules>
 
     <build>

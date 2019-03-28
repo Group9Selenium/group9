@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ebay" />
+        <module name="Ebay" />
         <module name="Facebook" />
         <module name="Generic" />
         <module name="LinkedIn" />
         <module name="Twitter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ebay" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

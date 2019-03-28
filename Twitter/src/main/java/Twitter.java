@@ -47,8 +47,8 @@ public class Twitter extends CommonAPI {
 
     public static void logup() throws InterruptedException {
         driver.findElement(By.xpath("//*[@class='js-nav EdgeButton EdgeButton--medium EdgeButton--primary StaticLoggedOutHomePage-buttonSignup']")).click();
-        driver.findElement(By.xpath("//*[@id='react-root']/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/label/div/div/input")).sendKeys("NourEddine Aroussi");
-        driver.findElement(By.xpath("//*[@class='rn-30o5oe rn-1niwhzg rn-ou6ah9 rn-t12b5v rn-zmljjp rn-pm2fo rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-homxoj rn-poiln3 rn-7cikom rn-1exrs8c rn-1qfoi16 rn-1hfyk0a rn-1qxgc49 rn-19yat4t rn-1dz5y72 rn-1ttztb7 rn-13qz1uu']")).sendKeys("6467644871");
+        driver.findElement(By.xpath("//*[@id='react-root']/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/label/div/div/input")).sendKeys("NourEddine Ai");
+        driver.findElement(By.xpath("//*[@class='rn-30o5oe rn-1niwhzg rn-ou6ah9 rn-t12b5v rn-zmljjp rn-pm2fo rn-13yce4e rn-fnigne rn-ndvcnb rn-gxnn5r rn-deolkf rn-homxoj rn-poiln3 rn-7cikom rn-1exrs8c rn-1qfoi16 rn-1hfyk0a rn-1qxgc49 rn-19yat4t rn-1dz5y72 rn-1ttztb7 rn-13qz1uu']")).sendKeys("6567644871");
         Thread.sleep(1000);
     }
 

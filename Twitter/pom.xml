@@ -17,7 +17,7 @@
             <artifactId>Generic</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-    </dependencies>rm
+    </dependencies>
     <build>
         <plugins>
             <plugin>
