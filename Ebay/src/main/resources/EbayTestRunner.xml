@@ -13,21 +13,21 @@
 
     <test name = "EbayTestRunner">
         <classes>
-            <!--<class name="HomePage.TestSearchEbay"/>-->
+            <class name="HomePage.TestSearchEbay"/>
             <class name="HomePage.TestPageElement"/>
-            <!--<class name="HomePage.RegisterUser"/>-->
-            <!--<class name="HomePage.SignInUser"/>-->
-            <!--<class name="DataReader.TestExcelSearch"/>-->
-            <!--<class name="DataSource.TestSearchPage"/>-->
-            <!--<class name="EbayElectronics.TestShopByCategory"/>-->
-            <!--<class name="EbayElectronics.ShopElectronics"/>-->
-            <!--<class name="EbayFashion.TestCategory"/>-->
-            <!--<class name="EbayFashion.ExploreInterests"/>-->
-            <!--<class name="EbayFashion.SalesEvents"/>-->
-            <!--<class name="EbayFashion.SellOnEbay"/>-->
-            <!--<class name="EbayFashion.TestTopBrands"/>-->
-            <!--<class name="EbayMenu.TestReadDropDown"/>-->
-            <!--<class name="EbayMotors.TestEbayMotors"/>-->
+            <class name="HomePage.RegisterUser"/>
+            <class name="HomePage.SignInUser"/>
+            <class name="DataReader.TestExcelSearch"/>
+            <class name="DataSource.TestSearchPage"/>
+            <class name="EbayElectronics.TestShopByCategory"/>
+            <class name="EbayElectronics.ShopElectronics"/>
+            <class name="EbayFashion.TestCategory"/>
+            <class name="EbayFashion.ExploreInterests"/>
+            <class name="EbayFashion.SalesEvents"/>
+            <class name="EbayFashion.SellOnEbay"/>
+            <class name="EbayFashion.TestTopBrands"/>
+            <class name="EbayMenu.TestReadDropDown"/>
+            <class name="EbayMotors.TestEbayMotors"/>
       </classes>
     </test>
 
