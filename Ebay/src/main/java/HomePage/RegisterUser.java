@@ -26,24 +26,31 @@ public class RegisterUser extends CommonAPI {
     public void ClickViewRegisterUser() {
         ViewRegisterUser.click();
     }
+
     public void InputRegisterFirstName() {
         RegisterFirstName.sendKeys("Shafayat");
     }
+
     public void InputRegisterLastName() {
         RegisterLastName.sendKeys("Ahmed");
     }
+
     public void InputRegisterEmail() {
         RegisterEmail.sendKeys("ahmed@gmail.com");
     }
+
     public void InputRegisterPassWord() {
         RegisterPassWord.sendKeys("ahmed123");
     }
+
     public void ClickCreateAccountButton() {
         CreateAccountButton.click();
     }
+
     public void ClickFacebookContinueButton() {
         FacebookContinueButton.click();
     }
+
     public void ClickGoogleContinueButton() {
         GoogleContinueButton.click();
     }
