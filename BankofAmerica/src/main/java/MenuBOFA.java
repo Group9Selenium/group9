@@ -169,6 +169,114 @@ public class MenuBOFA extends  CommonAPI {
         savingAccount();
         clickOnElement("iraAccount");
     }
+    public void mobileBankingPage(){
+        mobileBanking();
+        Boolean flag = driver.findElement(By.id("skip-to-h1")).isDisplayed();
+        Assert.assertTrue(flag);
+
+    }
+    public void manageAccounts(){
+        mobileBanking();
+        clickOnElement("/html/body/div[2]/div/div/section[2]/div/div/div[3]/section/section/div/nav/ul/li[2]/a/span");
+    }
+    public void paymentsAndTransfers(){
+        mobileBanking();
+        clickOnElement("/html/body/div[2]/div/div/section[2]/div/div/div[3]/section/section/div/nav/ul/li[3]/a/span");
+    }
+
+    public void setUpCustomAlerts(){
+        mobileBanking();
+       // clickOnElement("//*[@id=\"\\med_up_port_\"]");
+    }
+    public void lockUnlockDebitCard(){
+       mobileBanking();
+        //clickOnElement("//*[@id=\"\\med_up_port_\"]");
+    }
+    public void moreAboutMobileBanking(){
+        mobileBanking();
+        clickOnElement("learn_more_about_mobile_online_banking_1");
+    }
+    public void mobileAndOnlineFeatures(){
+        moreAboutMobileBanking();
+        clickOnElement("manageAccountsOnlineFeatures");
+    }
+    public void mobileAndOnlineOverview(){
+        moreAboutMobileBanking();
+        clickOnElement("manageAccountsOnlineOverview");
+    }
+    public void bankAmeriDeals(){
+        moreAboutMobileBanking();
+        clickOnElement("manageAccountsBankAmeriDeals");
+    }
+    public void getPaperlessStatement(){
+        moreAboutMobileBanking();
+        clickOnElement("manageAccountsPaperless");
+    }
+    public void budgetingTool(){
+        moreAboutMobileBanking();
+        clickOnElement("manageAccountsBudgetingTool");
+    }
+    public void orderChecks(){
+        moreAboutMobileBanking();
+        clickOnElement("manageAccountsOrder");
+    }
+    public void security(){
+        moreAboutMobileBanking();
+        clickOnElement("securityAlerts");
+    }
+    public void debitCardSecurity(){
+        moreAboutMobileBanking();
+        clickOnElement("securityLock");
+    }
+    public void fingerPrintSignIn(){
+        moreAboutMobileBanking();
+        clickOnElement("securityFingerprint");
+    }
+    public void mobileCheckDeposit(){
+        moreAboutMobileBanking();
+        clickOnElement("paymentsTransfersDeposit");
+
+    }
+    public void transferMoney(){
+        moreAboutMobileBanking();
+        clickOnElement("paymentsTransfersMoney");
+    }
+    public void payBills(){
+        moreAboutMobileBanking();
+        clickOnElement("paymentsTransfersPay");
+    }
+    public void getMobileBankingApp(){
+        moreAboutMobileBanking();
+        clickOnElement("footerGetTheAppLink");
+    }
+    public void enrollInOnlineBanking(){
+        moreAboutMobileBanking();
+        clickOnElement("onlineResourcesEnroll");
+    }
+    public void onlineBankingSecurity(){
+        moreAboutMobileBanking();
+        clickOnElement("onlineResourcesGuarantee");
+    }
+    public void onlineBankingFAQs(){
+        moreAboutMobileBanking();
+        clickOnElement("onlineResourcesFAQ");
+    }
+    public void mobileBankingSupportDevices(){
+        moreAboutMobileBanking();
+        clickOnElement("onlineResourcesDevices");
+    }
+    public void serviceAgreement(){
+        moreAboutMobileBanking();
+        clickOnElement("onlineResourcesAgreement");
+    }
+    public void eCommunication(){
+        moreAboutMobileBanking();
+        clickOnElement("onlineResourcesDisclosure");
+    }
+
+
+
+
 
 
 
