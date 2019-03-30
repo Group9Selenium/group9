@@ -33,210 +33,329 @@ public class TestMenuBOFA extends MenuBOFA {
 
 
     }
+
     @Test
-    public void TestHomeLoansMenu(){
+    public void TestHomeLoansMenu() {
         homeLoansMenu();
 
     }
+
     @Test
-    public void TestAutoLoansMenu(){
+    public void TestAutoLoansMenu() {
         autoLoansMenu();
     }
+
     @Test
-    public void TestInvestingMenu(){
+    public void TestInvestingMenu() {
         investingMenu();
     }
+
     @Test
     public void TestSmallBusinessMenu() {
         smallBusinessMenu();
 
     }
+
     @Test
-    public void TestPersonalMenu(){
+    public void TestPersonalMenu() {
 
         personalMenu();
     }
+
     @Test
-    public void testOpeningChecking(){
+    public void testOpeningChecking() {
         openingCheckingAccount();
     }
+
     @Test
-    public void testCheckingAccount(){
+    public void testCheckingAccount() {
         checkingAccountSettings();
     }
+
     @Test
-    public void testAdvantageBanking(){
+    public void testAdvantageBanking() {
         advantageBanking();
     }
+
     @Test
-    public void testStudentBanking(){
+    public void testStudentBanking() {
         studentBanking();
     }
+
     @Test
-    public void testBusinessChecking(){
+    public void testBusinessChecking() {
         businessChecking();
     }
+
     @Test
-    public void testCheckingSolutions(){
+    public void testCheckingSolutions() {
         checkingSolutions();
     }
+
     @Test
-    public void testOnlineBanking(){
+    public void testOnlineBanking() {
         onlineBanking();
     }
+
     @Test
-    public void testMobileBanking(){
+    public void testMobileBanking() {
         mobileBanking();
     }
+
     @Test
-    public void testMyRewards(){
+    public void testMyRewards() {
         myRewards();
     }
+
     @Test
-    public void testOpenCheckingAccount(){
+    public void testOpenCheckingAccount() {
         openCheckingAccount();
     }
+
     @Test
-    public void testMobileAlerts(){
+    public void testMobileAlerts() {
         mobileAlerts();
     }
+
     @Test
-    public void testFinancialGoals(){
+    public void testFinancialGoals() {
         financialGoals();
     }
+
     @Test
-    public void testAutoLoanRate(){
+    public void testAutoLoanRate() {
         autoLoanRate();
     }
+
     @Test
-    public void testRightFeaturesForChecking(){
+    public void testRightFeaturesForChecking() {
         checkingWithRightFeatures();
     }
+
     @Test
-    public void testDealsAndShopping(){
+    public void testDealsAndShopping() {
         dealsAndShopping();
     }
+
     @Test
-    public void testSavingsAccount(){
+    public void testSavingsAccount() {
         savingAccount();
     }
+
     @Test
-    public void testRewardSavings(){
+    public void testRewardSavings() {
         rewardSavings();
     }
+
     @Test
-    public void testChildSavings(){
+    public void testChildSavings() {
         childSavings();
     }
+
     @Test
-    public void testCDs(){
+    public void testCDs() {
         CDs();
     }
+
     @Test
-    public void testIRAs(){
+    public void testIRAs() {
         IRAs();
     }
+
     @Test
-    public void testMobileBankingPage(){
+    public void testMobileBankingPage() {
         mobileBankingPage();
     }
+
     @Test
-    public void testManageAccounts(){
+    public void testManageAccounts() {
         manageAccounts();
     }
+
     @Test
-    public void testPaymentsAndTransfers(){
+    public void testPaymentsAndTransfers() {
         paymentsAndTransfers();
     }
-      @Test
-    public void testSetUpAlerts(){
-        setUpCustomAlerts();
-      }
-      @Test
-    public void testLockUnlockDebitCard(){
-        lockUnlockDebitCard();
-      }
-      @Test
-    public void testMoreAboutMobileBanking(){
-        moreAboutMobileBanking();
-      }
+
     @Test
-    public void testMobileAndOnlineFeatures(){
+    public void testSetUpAlerts() {
+        setUpCustomAlerts();
+    }
+
+    @Test
+    public void testLockUnlockDebitCard() {
+        lockUnlockDebitCard();
+    }
+
+    @Test
+    public void testMoreAboutMobileBanking() {
+        moreAboutMobileBanking();
+    }
+
+    @Test
+    public void testMobileAndOnlineFeatures() {
         mobileAndOnlineFeatures();
     }
+
     @Test
-    public void testMobileAndOnlineOverview(){
+    public void testMobileAndOnlineOverview() {
         mobileAndOnlineOverview();
     }
+
     @Test
-    public void testBankAmeriDeals(){
+    public void testBankAmeriDeals() {
         bankAmeriDeals();
     }
+
     @Test
-    public void testPaperlessStatement(){
+    public void testPaperlessStatement() {
         getPaperlessStatement();
     }
+
     @Test
-    public void testBudgetingTool(){
+    public void testBudgetingTool() {
         budgetingTool();
     }
+
     @Test
-    public void testOrderChecks(){
+    public void testOrderChecks() {
         orderChecks();
     }
+
     @Test
-    public void testSecurity(){
+    public void testSecurity() {
         security();
     }
+
     @Test
-    public void testDebitCardSecurity(){
+    public void testDebitCardSecurity() {
         debitCardSecurity();
     }
+
     @Test
-    public void testFingerPrintsSignin(){
+    public void testFingerPrintsSignin() {
         fingerPrintSignIn();
     }
+
     @Test
-    public void testMobileCheckDeposit(){
+    public void testMobileCheckDeposit() {
         mobileCheckDeposit();
     }
+
     @Test
-    public void testTransferMoney(){
+    public void testTransferMoney() {
         transferMoney();
     }
+
     @Test
-    public void testPayBills(){
+    public void testPayBills() {
         payBills();
     }
+
     @Test
-    public void testGetBankingApp(){
+    public void testGetBankingApp() {
         getMobileBankingApp();
     }
+
     @Test
-    public void testEnrollOnlineBanking(){
+    public void testEnrollOnlineBanking() {
         enrollInOnlineBanking();
     }
+
     @Test
-    public void testOnlineBankingSecurity(){
+    public void testOnlineBankingSecurity() {
         onlineBankingSecurity();
     }
 
-   @Test
-    public void testFAQs(){
+    @Test
+    public void testFAQs() {
         onlineBankingFAQs();
-   }
-   @Test
-    public void testMobileBankingSupportDevices(){
+    }
+
+    @Test
+    public void testMobileBankingSupportDevices() {
         mobileBankingSupportDevices();
-   }
-   @Test
-    public void testServiceAgreement(){
+    }
+
+    @Test
+    public void testServiceAgreement() {
         serviceAgreement();
-   }
-   @Test
-    public void testeCommunication(){
+    }
+
+    @Test
+    public void testeCommunication() {
         eCommunication();
-   }
+    }
+
+    @Test
+    public void testCashRewardsCreditCards() {
+        cashRewardsCreditCards();
+    }
+
+    @Test
+    public void testTravelRewardsCards() {
+        travelRewardsCards();
+    }
+
+    @Test
+    public void testLowerInterestRateCards() {
+        lowerInterestRateCards();
+
+
+    }
+
+    @Test
+    public void testPointsRewardsCards() {
+        pointsRewardsCards();
+    }
+
+    @Test
+    public void testRebuildCards() {
+        rebuildCards();
+    }
+
+    @Test
+    public void testCardsForStudents() {
+        cardsForStudents();
+    }
+
+    @Test
+    public void testShopCreditCards() {
+        shopCreditCards();
+    }
+
+    @Test
+    public void testManageCreditAccount() {
+        manageCreditCardAccount();
+
+    }
+    @Test
+    public void testHomeLoans(){
+        homeLoans();
+    }
+    @Test
+    public void testMortgages() {
+        mortgages();
+    }
+    @Test
+    public void testRefinance() {
+        refinance();
+    }
+    @Test
+    public void testHomeEquity() {
+        homeEquity();
+    }
+    @Test
+    public void testFindaHome() {
+        findAHome();
+    }
+    @Test
+    public void testHomeLoanPayments() {
+        homeLoanPayments();
+    }
+    @Test
+    public void testFirstTimeHomeBuyer() {
+       firstTimeHomeBuyer();
+    }
+
 }
-
-

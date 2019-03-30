@@ -273,6 +273,83 @@ public class MenuBOFA extends  CommonAPI {
         moreAboutMobileBanking();
         clickOnElement("onlineResourcesDisclosure");
     }
+    public void creditCards(){
+        clickOnElement("navCreditCards");
+        Boolean flag = driver.findElement(By.id("btnCompareCreditCards")).isDisplayed();
+        Assert.assertTrue(flag);
+
+    }
+    public void cashRewardsCreditCards(){
+        creditCards();
+        clickOnElement("cashRewardsCards");
+    }
+    public void travelRewardsCards(){
+        creditCards();
+        clickOnElement("travelRewardsCards");
+    }
+    public void lowerInterestRateCards(){
+        creditCards();
+        clickOnElement("lowerInterestRateCards");
+    }
+    public void pointsRewardsCards(){
+        creditCards();
+        clickOnElement("pointsRewardsCards");
+    }
+    public void rebuildCards(){
+        creditCards();
+        clickOnElement("buildCreditCards");
+    }
+    public void cardsForStudents(){
+        creditCards();
+        clickOnElement("cardsForStudents");
+    }
+    public void shopCreditCards(){
+        creditCards();
+        clickOnElement("btnCompareCreditCards");
+    }
+    public void manageCreditCardAccount(){
+        creditCards();
+        clickOnElement("manageCreditCardAccount");
+    }
+    public void allRewards(){
+        creditCards();
+        clickOnElement("navCreditCardsPreferredRewards");
+        //Boolean flag = driver.findElement(By.xpath("//*[@id=\"skip-to-h1\"]")).isDisplayed();
+        //Assert.assertTrue(flag);
+        clickOnElement("goToMyRewardsLarge");
+
+    }
+    public void homeLoans(){
+        clickOnElement("navHomeLoans");
+        Boolean flag = driver.findElement(By.id("mortgages")).isDisplayed();
+        Assert.assertTrue(flag);
+    }
+    public void mortgages(){
+        homeLoansMenu();
+        clickOnElement("mortgages");
+    }
+    public void refinance(){
+        homeLoansMenu();
+        clickOnElement("refinance");
+    }
+    public void homeEquity(){
+        homeLoansMenu();
+        clickOnElement("homeEquity");
+    }
+    public void findAHome(){
+        homeLoansMenu();
+        clickOnElement("findAHome");
+    }
+    public void homeLoanPayments(){
+        homeLoansMenu();
+        clickOnElement("helpWithHomeLoanPayments");
+    }
+    public void firstTimeHomeBuyer(){
+        homeLoansMenu();
+        clickOnElement("firstTimeHomeBuyer");
+    }
+
+    }
 
 
 
@@ -281,4 +358,4 @@ public class MenuBOFA extends  CommonAPI {
 
 
 
-}
+
