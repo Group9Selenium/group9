@@ -13,7 +13,7 @@ public class TestCreateAccount extends CreateAccount {
 
 
 
-   /* @Test
+    @Test
     public void testUserCanNavigateToCreateAccount(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.navigate().to(this.createAccount);
@@ -72,7 +72,7 @@ public class TestCreateAccount extends CreateAccount {
         driver.switchTo().activeElement().sendKeys("selenium2019",Keys.TAB);
         driver.switchTo().activeElement().sendKeys("selenium2019",Keys.TAB);
         Thread.sleep(2000);
-    }*/
+    }
     @Test
     public void runElementIsdisplied(){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

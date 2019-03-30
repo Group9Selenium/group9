@@ -13,7 +13,7 @@
 
     <test name = "Amazon Runner">
         <classes>
-           <!--<class name="TestHomePage"/>-->
+           <class name="TestHomePage"/>
             <class name="TestCreateAccount"/>
 
         </classes>
