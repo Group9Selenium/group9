@@ -100,7 +100,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("73.0")
-                                  String browserVersion, @Optional("https://www.Facebook.com") String url)throws IOException {
+                              String browserVersion, @Optional("https://www.Facebook.com") String url)throws IOException {
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -121,6 +121,8 @@ public class CommonAPI {
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+            }else if(OS.equalsIgnoreCase("Linux")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriverLinux");
             }
             driver = new ChromeDriver();
         } else if(browserName.equalsIgnoreCase("chrome-options")){
@@ -130,6 +132,8 @@ public class CommonAPI {
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+            }else if(OS.equalsIgnoreCase("Linux")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriverLinux");
             }
             driver = new ChromeDriver(options);
         }
@@ -139,6 +143,8 @@ public class CommonAPI {
                 System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver");
             }else if(OS.equalsIgnoreCase("Windows")) {
                 System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
+            }else if(OS.equalsIgnoreCase("Linux")) {
+                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriverLinux.exe");
             }
             driver = new FirefoxDriver();
 
@@ -172,7 +178,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp() {
-       // driver.close();
+        // driver.close();
     }
 
     //type

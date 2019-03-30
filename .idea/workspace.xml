@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67040baf-8575-4f86-bef3-7dfd2b8a6807" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/chromedriverLinux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/browser-driver/geckodriverLinux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/secret.properties" afterDir="false" />
-    </list>
+    <list default="true" id="67040baf-8575-4f86-bef3-7dfd2b8a6807" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/LinkedIn/target/" />
     <ignored path="$PROJECT_DIR$/Facebook/target/" />
@@ -61,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10170">
-              <caret line="680" column="12" selection-start-line="680" selection-start-column="12" selection-end-line="680" selection-end-column="12" />
+            <state relative-caret-position="10575">
+              <caret line="707" column="12" selection-start-line="707" selection-start-column="12" selection-end-line="707" selection-end-column="12" />
               <folding>
                 <element signature="n#component#0;n#project#0;n#!!top" />
               </folding>
@@ -184,8 +179,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="112" />
-    <option name="y" value="55" />
+    <option name="x" value="81" />
+    <option name="y" value="105" />
     <option name="width" value="1221" />
     <option name="height" value="598" />
   </component>
@@ -294,7 +289,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553925219905" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553925221311" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/group9" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -743,8 +738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10170">
-          <caret line="680" column="12" selection-start-line="680" selection-start-column="12" selection-end-line="680" selection-end-column="12" />
+        <state relative-caret-position="10575">
+          <caret line="707" column="12" selection-start-line="707" selection-start-column="12" selection-end-line="707" selection-end-column="12" />
           <folding>
             <element signature="n#component#0;n#project#0;n#!!top" />
           </folding>
