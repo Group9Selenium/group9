@@ -198,10 +198,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="24" />
-    <option name="y" value="21" />
-    <option name="width" value="1830" />
-    <option name="height" value="996" />
+    <option name="x" value="112" />
+    <option name="y" value="55" />
+    <option name="width" value="1221" />
+    <option name="height" value="598" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -276,7 +276,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553737248507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553921151820" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tabledata/Web-AutomationJan2019" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -326,6 +326,7 @@
       <option name="SUITE_NAME" value="$PROJECT_DIR$/BankofAmerica/src/main/resources/BOFATestRunner.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -367,6 +368,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testBOFA" />
       <option name="MAIN_CLASS_NAME" value="TestMenuBOFA" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
