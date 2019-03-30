@@ -178,7 +178,16 @@ public class Login extends CommonAPI {
         clickOnElement("How_you_can_identify_and_avoid_scams");
 
     }
+    public void navigateBackward(){
+        String HomePage = driver.getCurrentUrl();
+        clickOnElement("navChecking");
+        Boolean flag = driver.findElement(By.id("exploreCheckingSolutions")).isDisplayed();
+        Assert.assertTrue(flag);
+        driver.navigate().back();
+        String homePageAfterBack = driver.findElement(By.xpath("/html/body/div[1]/div/div/section[1]/div/div/div[4]/div[3]/div[1]/img")).getText();
+        Assert.assertEquals(homePageAfterBack, "BANk OF AMERICA");
 
+    }
 
 
 }

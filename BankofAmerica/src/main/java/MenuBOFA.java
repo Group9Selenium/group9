@@ -81,4 +81,96 @@ public class MenuBOFA extends  CommonAPI {
         Assert.assertTrue(flag);
 
     }
+    public void openingCheckingAccount(){
+        clickOnElement("/html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div/div/div[1]/a/div[2]/div[2]");
+        Boolean flag = driver.findElement(By.xpath("/html/body/div[2]/div/section[1]/div/div/h1")).isDisplayed();
+        Assert.assertTrue(flag);
+        clickOnElement("/html/body/div[2]/div/section[1]/div/div/a/span");
+    }
+    public void checkingAccountSettings() {
+        clickOnElement("navChecking");
+        String title = driver.getTitle();
+        Assert.assertEquals(title, " Bank of America - Banking, Credit Cards, Home Loans and Auto Loans");
+
+    }
+    public void advantageBanking(){
+        checkingAccountSettings();
+        clickOnElement("advantageBanking");
+
+    }
+    public void studentBanking(){
+        checkingAccountSettings();
+        clickOnElement("studentBanking");
+    }
+    public void businessChecking(){
+        checkingAccountSettings();
+        clickOnElement("businessChecking");
+    }
+    public void checkingSolutions(){
+        checkingAccountSettings();
+        clickOnElement("exploreCheckingSolutions");
+    }
+    public void onlineBanking(){
+        checkingAccountSettings();
+        clickOnElement("navCheckingOnlineBanking");
+    }
+    public void mobileBanking(){
+        checkingAccountSettings();
+        clickOnElement("navCheckingMobileBanking");
+    }
+    public void myRewards(){
+        checkingAccountSettings();
+        clickOnElement("navCheckingPreferredRewards");
+    }
+    public void openCheckingAccount(){
+        checkingAccountSettings();
+        clickOnElement("DCTAHZ26");
+    }
+    public void mobileAlerts(){
+        checkingAccountSettings();
+        clickOnElement("/html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div/div/div[1]/a/div[2]/div[4]");
+    }
+    public void financialGoals(){
+        checkingAccountSettings();
+        clickOnElement("/html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div/div/div[2]/a/div[2]/div[4]");
+
+    }
+    public void autoLoanRate(){
+        checkingAccountSettings();
+        clickOnElement("/html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div/div/div[3]/a/div[2]/div[4]");
+    }
+    public void checkingWithRightFeatures(){
+        checkingAccountSettings();
+        clickOnElement("/html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div/div/div[4]/a/div[2]/div[4]");
+    }
+    public void dealsAndShopping(){
+        checkingAccountSettings();
+        clickOnElement("/html/body/div[1]/div/div/section[3]/div/div/div[1]/div/div/div/div[5]/a/div[2]/div[4]");
+    }
+    public void savingAccount(){
+        clickOnElement("navSavings");
+        String title = driver.getTitle();
+        Assert.assertEquals(title, " Bank of America - Banking, Credit Cards, Home Loans and Auto Loans");
+
+    }
+    public void rewardSavings(){
+        savingAccount();
+        clickOnElement("rewardsSavingsAccount");
+    }
+    public void childSavings(){
+        savingAccount();
+        clickOnElement("childSavingsAccount");
+    }
+    public void CDs(){
+        savingAccount();
+        clickOnElement("cdAccount");
+    }
+    public void IRAs(){
+        savingAccount();
+        clickOnElement("iraAccount");
+    }
+
+
+
+
 }

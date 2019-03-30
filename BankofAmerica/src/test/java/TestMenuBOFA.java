@@ -54,7 +54,86 @@ public class TestMenuBOFA extends MenuBOFA {
 
         personalMenu();
     }
-
+    @Test
+    public void testOpeningChecking(){
+        openingCheckingAccount();
+    }
+    @Test
+    public void testCheckingAccount(){
+        checkingAccountSettings();
+    }
+    @Test
+    public void testAdvantageBanking(){
+        advantageBanking();
+    }
+    @Test
+    public void testStudentBanking(){
+        studentBanking();
+    }
+    @Test
+    public void testBusinessChecking(){
+        businessChecking();
+    }
+    @Test
+    public void testCheckingSolutions(){
+        checkingSolutions();
+    }
+    @Test
+    public void testOnlineBanking(){
+        onlineBanking();
+    }
+    @Test
+    public void testMobileBanking(){
+        mobileBanking();
+    }
+    @Test
+    public void testMyRewards(){
+        myRewards();
+    }
+    @Test
+    public void testOpenCheckingAccount(){
+        openCheckingAccount();
+    }
+    @Test
+    public void testMobileAlerts(){
+        mobileAlerts();
+    }
+    @Test
+    public void testFinancialGoals(){
+        financialGoals();
+    }
+    @Test
+    public void testAutoLoanRate(){
+        autoLoanRate();
+    }
+    @Test
+    public void testRightFeaturesForChecking(){
+        checkingWithRightFeatures();
+    }
+    @Test
+    public void testDealsAndShopping(){
+        dealsAndShopping();
+    }
+    @Test
+    public void testSavingsAccount(){
+        savingAccount();
+    }
+    @Test
+    public void testRewardSavings(){
+        rewardSavings();
+    }
+    @Test
+    public void testChildSavings(){
+        childSavings();
+    }
+    @Test
+    public void testCDs(){
+        CDs();
+    }
+    @Test
+    public void testIRAs(){
+        IRAs();
+    }
 }
 
 

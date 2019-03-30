@@ -100,7 +100,10 @@ public class TestLogin extends Login {
     public void testClickAvoidScam(){
         clickAvoidScam();
    }
+   @Test
+    public void testNavigatePage(){
+        navigateBackward();
+   }
 
-
-    }
+}
 
