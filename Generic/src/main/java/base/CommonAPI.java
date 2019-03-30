@@ -100,7 +100,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("73.0")
-                                  String browserVersion, @Optional("https://www.Facebook.com") String url)throws IOException {
+                              String browserVersion, @Optional("https://www.Facebook.com") String url)throws IOException {
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -115,10 +115,10 @@ public class CommonAPI {
         driver.get(url);
         //driver.manage().window().maximize();
     }
-    public WebDriver getLocalDriver(@Optional("linux") String OS, String browserName){
+    public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
-            if(OS.equalsIgnoreCase("linux")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriverLinux");
+            if(OS.equalsIgnoreCase("OS X")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
@@ -126,8 +126,8 @@ public class CommonAPI {
         } else if(browserName.equalsIgnoreCase("chrome-options")){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
-            if(OS.equalsIgnoreCase("linux")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriverLinux");
+            if(OS.equalsIgnoreCase("OS X")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
@@ -172,7 +172,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void cleanUp() {
-       // driver.close();
+        // driver.close();
     }
 
     //type
@@ -274,7 +274,7 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
-    public void clickOnElement(String locator) {
+    public static void  clickOnElement(String locator) {
         try {
             driver.findElement(By.cssSelector(locator)).click();
         } catch (Exception ex1) {
