@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="764" column="45" lean-forward="true" selection-start-line="764" selection-start-column="45" selection-end-line="764" selection-end-column="45" />
+            <state relative-caret-position="363">
+              <caret line="782" column="45" lean-forward="true" selection-start-line="782" selection-start-column="45" selection-end-line="782" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankofAmerica/src/test/java/TestMenuBOFA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="357" column="28" selection-start-line="357" selection-start-column="28" selection-end-line="357" selection-end-column="28" />
+              <caret line="380" column="36" lean-forward="true" selection-start-line="380" selection-start-column="36" selection-end-line="380" selection-end-column="36" />
               <folding>
                 <element signature="e#3586#3587#0" expanded="true" />
                 <element signature="e#4500#4501#0" expanded="true" />
@@ -116,6 +116,17 @@
                 <element signature="e#5936#5937#0" expanded="true" />
                 <element signature="e#5981#5982#0" expanded="true" />
                 <element signature="e#6009#6010#0" expanded="true" />
+                <element signature="e#6070#6071#0" expanded="true" />
+                <element signature="e#6096#6097#0" expanded="true" />
+                <element signature="e#6143#6144#0" expanded="true" />
+                <element signature="e#6174#6175#0" expanded="true" />
+                <element signature="e#6226#6227#0" expanded="true" />
+                <element signature="e#6262#6263#0" expanded="true" />
+                <element signature="e#6310#6311#0" expanded="true" />
+                <element signature="e#6342#6343#0" expanded="true" />
+                <element signature="e#6387#6388#0" expanded="true" />
+                <element signature="e#6420#6421#0" expanded="true" />
+                <element signature="e#6498#6499#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,11 +144,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/MenuBOFA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="348" column="42" selection-start-line="348" selection-start-column="42" selection-end-line="348" selection-end-column="42" />
+            <state relative-caret-position="-116">
+              <caret line="354" lean-forward="true" selection-start-line="354" selection-end-line="354" />
             </state>
           </provider>
         </entry>
@@ -185,8 +196,8 @@
         <option value="$PROJECT_DIR$/BankofAmerica/src/test/java/TestLogin.java" />
         <option value="$PROJECT_DIR$/BankofAmerica/src/main/java/Login.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/secret.properties" />
-        <option value="$PROJECT_DIR$/BankofAmerica/src/main/java/MenuBOFA.java" />
         <option value="$PROJECT_DIR$/BankofAmerica/src/test/java/TestMenuBOFA.java" />
+        <option value="$PROJECT_DIR$/BankofAmerica/src/main/java/MenuBOFA.java" />
       </list>
     </option>
   </component>
@@ -294,7 +305,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553968595975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553970208137" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/group9" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -462,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553738069700</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="master1">
+      <created>1553969143669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553969143669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -760,8 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="764" column="45" lean-forward="true" selection-start-line="764" selection-start-column="45" selection-end-line="764" selection-end-column="45" />
+        <state relative-caret-position="363">
+          <caret line="782" column="45" lean-forward="true" selection-start-line="782" selection-start-column="45" selection-end-line="782" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -786,16 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1828">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankofAmerica/src/test/java/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -808,17 +816,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/MenuBOFA.java">
+    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="348" column="42" selection-start-line="348" selection-start-column="42" selection-end-line="348" selection-end-column="42" />
+        <state relative-caret-position="-1828">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankofAmerica/src/test/java/TestMenuBOFA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="357" column="28" selection-start-line="357" selection-start-column="28" selection-end-line="357" selection-end-column="28" />
+          <caret line="380" column="36" lean-forward="true" selection-start-line="380" selection-start-column="36" selection-end-line="380" selection-end-column="36" />
           <folding>
             <element signature="e#3586#3587#0" expanded="true" />
             <element signature="e#4500#4501#0" expanded="true" />
@@ -850,7 +861,25 @@
             <element signature="e#5936#5937#0" expanded="true" />
             <element signature="e#5981#5982#0" expanded="true" />
             <element signature="e#6009#6010#0" expanded="true" />
+            <element signature="e#6070#6071#0" expanded="true" />
+            <element signature="e#6096#6097#0" expanded="true" />
+            <element signature="e#6143#6144#0" expanded="true" />
+            <element signature="e#6174#6175#0" expanded="true" />
+            <element signature="e#6226#6227#0" expanded="true" />
+            <element signature="e#6262#6263#0" expanded="true" />
+            <element signature="e#6310#6311#0" expanded="true" />
+            <element signature="e#6342#6343#0" expanded="true" />
+            <element signature="e#6387#6388#0" expanded="true" />
+            <element signature="e#6420#6421#0" expanded="true" />
+            <element signature="e#6498#6499#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankofAmerica/src/main/java/MenuBOFA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="354" lean-forward="true" selection-start-line="354" selection-end-line="354" />
         </state>
       </provider>
     </entry>

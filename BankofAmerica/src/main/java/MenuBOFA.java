@@ -348,8 +348,34 @@ public class MenuBOFA extends  CommonAPI {
         homeLoansMenu();
         clickOnElement("firstTimeHomeBuyer");
     }
+   public void autoLoan(){
+        clickOnElement("navAutoLoans");
+    Boolean flag = driver.findElement(By.id("autoLoanRates")).isDisplayed();
+    Assert.assertTrue(flag);
 
-    }
+   }
+   public void applyAutoLoan(){
+        autoLoan();
+        clickOnElement("autoApplyNow");
+   }
+   public void autoLoanCalculator(){
+        autoLoan();
+        clickOnElement("calculateAutoLoanPayment");
+   }
+   public void financeNextCar(){
+        autoLoan();
+        clickOnElement("findAndFinanceYourNextCar");
+   }
+   public void checkAutoStatus(){
+        autoLoan();
+        clickOnElement("checkAutoStatus");
+   }
+   public void autoLoanRates(){
+        autoLoan();
+        clickOnElement("autoLoanRates");
+   }
+
+}
 
 
 

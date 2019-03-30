@@ -357,5 +357,29 @@ public class TestMenuBOFA extends MenuBOFA {
     public void testFirstTimeHomeBuyer() {
        firstTimeHomeBuyer();
     }
+    @Test
+    public void testAutoLoan(){
+        autoLoan();
+    }
+    @Test
+    public void testApplyAutoLoan(){
+        applyAutoLoan();
+    }
+    @Test
+    public void testAutoLoanCalculator(){
+        autoLoanCalculator();
+    }
+    @Test
+    public void testFinanceNextCar(){
+        financeNextCar();
+    }
+    @Test
+    public void CheckAutoStatus(){
+        checkAutoStatus();
+    }
+    @Test
+    public void testAutoLoanRates(){
+        autoLoanRates();
+    }
 
 }
