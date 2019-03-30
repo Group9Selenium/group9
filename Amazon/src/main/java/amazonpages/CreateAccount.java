@@ -1,6 +1,7 @@
 package amazonpages;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -45,5 +46,9 @@ public class CreateAccount extends CommonAPI {
     }
 
     public void SubmitAccountButton(){this.SubmitButton.click();
+    }
+    public boolean elementShow(){
+        driver.navigate().to("https://www.amazon.com/");
+        return driver.findElement(By.xpath("//*[@id='twotabsearchtextbox']")).isDisplayed();
     }
 }
