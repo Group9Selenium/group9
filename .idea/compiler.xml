@@ -11,6 +11,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
+      <module name="BankofAmerica" target="1.8" />
       <module name="ebay" target="1.8" />
       <module name="Facebook" target="1.8" />
       <module name="LinkedIn" target="1.8" />
