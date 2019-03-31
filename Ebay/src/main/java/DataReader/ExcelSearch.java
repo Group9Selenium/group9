@@ -11,26 +11,32 @@ import java.io.IOException;
 import static org.openqa.selenium.support.How.XPATH;
 
 public class ExcelSearch extends CommonAPI {
-    @FindBy(how = XPATH, using ="//*[@id=\"gh-ac\"]")
+    @FindBy(how = XPATH, using = "//*[@id=\"gh-ac\"]")
     public static WebElement searchBox;
-    @FindBy(how = XPATH, using ="//*[@id=\"gh-btn\"]")
+    @FindBy(how = XPATH, using = "//*[@id=\"gh-btn\"]")
+
     public static WebElement resultText;
     DataReader dtr = new DataReader();
+
     //Read data for input search
     public String[] getExcelData(String fileName) throws IOException {
-        String path = "../eBay/data/" + fileName;
-        String[] output = dtr.colReader(path, 2); //Reading from column2
+        String path = "/home/stof/IdeaProjects/group9/Ebay/Data/" + fileName;
+        String[] output = dtr.colReader(path, 2);
+        //Reading from column2
         return output;
     }
-    public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
+
+    public void inputValueInTextBoxByWebElement(WebElement webElement, String value) {
         webElement.sendKeys(value + Keys.ENTER);
     }
+
     //Read data for Expected result
     public String[] getAssertData(String fileName) throws IOException {
-        String path = "../eBay/data/" + fileName;
+        String path = "/home/stof/IdeaProjects/group9/Ebay/Data/" + fileName;
         String[] output = dtr.colReader(path, 3);  //Reading from Column3 which has Expected data
         return output;
     }
+
     //Search Product using Excel data
     public String[] searchProduct(String fileName) throws IOException, InterruptedException {
         String[] searchItem = getExcelData(fileName);

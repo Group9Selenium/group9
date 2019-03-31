@@ -12,13 +12,11 @@ import java.util.List;
 
 import static DataSource.DatabaseOperation.getItemValue;
 
-;
-
 public class SearchPage extends CommonAPI {
-    @FindBy(how = How.XPATH, using ="//*[@id=\"gh-ac\"]")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"gh-ac\"]")
     public static WebElement searchInputWebElement;
 
-    @FindBy(how = How.XPATH, using ="//*[@id=\"gh-btn\"]")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"gh-btn\"]")
     public static WebElement submitButtonWebElement;
 
     public WebElement getSearchInputWebElement() {
@@ -29,35 +27,27 @@ public class SearchPage extends CommonAPI {
         return submitButtonWebElement;
     }
 
-    public void searchFor(String value){
+    public void searchFor(String value) {
         getSearchInputWebElement().sendKeys(value);
     }
-    public void submitSearchButton(){
+
+    public void submitSearchButton() {
         getSubmitButtonWebElement().click();
     }
-    public void clearInput(){
+
+    public void clearInput() {
         getSearchInputWebElement().clear();
     }
-    public void searchItemsAndSubmitButton()throws Exception, IOException, SQLException, ClassNotFoundException  {
+
+    public void searchItemsAndSubmitButton() throws Exception, IOException, SQLException, ClassNotFoundException {
         DataSource.DatabaseOperation databaseOperation = new DataSource.DatabaseOperation();
         List<String> list = databaseOperation.getItemsListFromDB();
-        for(int i=0; i<list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             searchFor(list.get(i));
             submitSearchButton();
             clearInput();
         }
     }
-
-    /*public void searchItemsAndSubmitButtonFromExcelFile()throws Exception, IOException, SQLException, ClassNotFoundException  {
-        // ToDo
-        //Read data from Excel file using Apache POI
-        List<String> list = null;
-        for(int i=0; i<list.size(); i++) {
-            searchFor(list.get(i));
-            submitSearchButton();
-            clearInput();
-        }
-    }*/
 
     public WebElement getSearchInputField() {
         return searchInputWebElement;
@@ -67,12 +57,12 @@ public class SearchPage extends CommonAPI {
         this.searchInputWebElement = searchInputField;
     }
 
-    public void searchItems()throws InterruptedException{
+    public void searchItems() throws InterruptedException {
         List<String> itemList = getItemValue();
-        for(String st: itemList) {
+        for (String st : itemList) {
             getSearchInputField().sendKeys(st, Keys.ENTER);
             getSearchInputField().clear();
         }
     }
-
 }
+

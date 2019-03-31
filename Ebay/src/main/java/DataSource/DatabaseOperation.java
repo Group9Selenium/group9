@@ -17,9 +17,9 @@ public class DatabaseOperation extends ConnectToSqlDB {
     }
     public static List<String> getItemValue(){
         List<String> itemsList = new ArrayList<String>();
-        itemsList.add("Books");
-        itemsList.add("Toys");
-        itemsList.add("Tools");
+        itemsList.add("iPhone");
+        itemsList.add("laptop");
+        itemsList.add("TV");
         return itemsList;
     }
     public List<String> getItemsListFromDB()throws Exception, IOException, SQLException, ClassNotFoundException {

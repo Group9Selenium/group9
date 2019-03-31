@@ -18,92 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/RegisterUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="178">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-end-line="4" />
+            <state relative-caret-position="-2865">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/DataSource/DatabaseOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8072">
-              <caret line="554" selection-start-line="554" selection-end-line="554" />
+            <state relative-caret-position="135">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/SignInUser.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/SalesEvents.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/SellOnEbay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/TopBrands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayMenu/ReadDropDown.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayMotors/EbayMotors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -120,6 +66,19 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>vm</find>
+      <find>maxim</find>
+      <find>playp</find>
+      <find>testpl</find>
+      <find>viewt</find>
+      <find>viewsa</find>
+      <find>gucc</find>
+      <find>gucci</find>
+      <find>pause</find>
+      <find>deal</find>
+      <find>chrome</find>
+      <find>secret</find>
+      <find>face</find>
+      <find>faceboo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ebay/src/main/java/EBayFashion/SellOnEbay.java" />
-        <option value="$PROJECT_DIR$/ebay/src/test/java/DataDrivenDataReader/TestExcelSearch.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/EBayElectronicsPage/TestElectronicsSalesEvents.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/EBayElectronicsPage/TestShopByCategory.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/EBayFashionPage/TestSellOnEbay.java" />
@@ -139,46 +96,48 @@
         <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestExploreInterest.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayMenu/ReadDropDownMenu.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/HomePage/PageEelement.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/HomePage/PageElement.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/HomePage/SignInUser.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/DataReader/ExcelSearch.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCatergory.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/TestReadDropDownMenu.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/ReadDropDown.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSearchEbay.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/secret.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayElectronics/ShopByCategory.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayElectronics/ShopElectronics.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/Category.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/ExploreInterests.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/SalesEvents.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/TopBrands.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/SellOnEbay.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/DataSource/DatabaseOperation.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/DataSource/SearchPage.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayMenu/ReadDropDown.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/TopBrands.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayMotors/EbayMotors.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/HomePage/RegisterUser.java" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/HomePage/SearchEbay.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/HomePage/SignInUser.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestShopByCategory.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestShopElectronics.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestSellOnEbay.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestTopBrands.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCatergory.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCategory.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestSalesEvents.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestExploreInterests.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/TestReadDropDownMenu.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/ReadDropDown.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/TestReadDropDown.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestSalesEvents.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestSellOnEbay.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayMotors/TestEbayMotors.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestRegisterUser.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSearchEbay.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestPageElement.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSignInUser.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/secret.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestTopBrands.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/HomePage/PageElement.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestPageElement.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/EbayMenu/ReadDropDown.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/TestReadDropDown.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/HomePage/RegisterUser.java" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/DataReader/ExcelSearch.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/DataSource/SearchPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/DataSource/DatabaseOperation.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java" />
       </list>
     </option>
   </component>
@@ -195,37 +154,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ebay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ebay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ebay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ebay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="Group9-Test-Automation:Generic:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -242,13 +176,11 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
-    <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="66" />
-    <option name="y" value="58" />
-    <option name="width" value="1221" />
-    <option name="height" value="598" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1366" />
+    <option name="height" value="693" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,8 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +199,18 @@
               <item name="group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="group9" type="462c0819:PsiDirectoryNode" />
               <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="group9" type="b2602c69:ProjectViewProjectNode" />
@@ -384,7 +326,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DataSource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EbayFashion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EbayMenu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="group9" type="b2602c69:ProjectViewProjectNode" />
@@ -443,6 +412,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="reporting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -458,23 +436,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553929847987" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554069900716" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A-project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Ebay/DataEbay" />
+      <recent name="$PROJECT_DIR$/Ebay/Data" />
       <recent name="$PROJECT_DIR$/Generic/browser-driver" />
+      <recent name="$PROJECT_DIR$/Ebay/DataEbay" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java" />
       <recent name="$PROJECT_DIR$/Twitter/src/main/data" />
-      <recent name="$PROJECT_DIR$/Twitter/src/test/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -489,7 +469,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml">
+  <component name="RunManager" selected="TestNG.TestExcelSearch">
     <configuration name="run Maven" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -515,16 +495,16 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="TestRegisterUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestExcelSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePage.*" />
+          <option name="PATTERN" value="DataReader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePage" />
-      <option name="MAIN_CLASS_NAME" value="HomePage.TestRegisterUser" />
+      <option name="PACKAGE_NAME" value="DataReader" />
+      <option name="MAIN_CLASS_NAME" value="DataReader.TestExcelSearch" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -532,17 +512,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearchEbay.searchItems" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestExcelSearch.searchProdctUsingExcelInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePage.*" />
+          <option name="PATTERN" value="DataReader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePage" />
-      <option name="MAIN_CLASS_NAME" value="HomePage.TestSearchEbay" />
-      <option name="METHOD_NAME" value="searchItems" />
+      <option name="PACKAGE_NAME" value="DataReader" />
+      <option name="MAIN_CLASS_NAME" value="DataReader.TestExcelSearch" />
+      <option name="METHOD_NAME" value="searchProdctUsingExcelInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -550,17 +530,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearchPage.testSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestExcelSearch.searchProductUsingExcel (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataSource.*" />
+          <option name="PATTERN" value="DataReader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DataSource" />
-      <option name="MAIN_CLASS_NAME" value="DataSource.TestSearchPage" />
-      <option name="METHOD_NAME" value="testSearchPage" />
+      <option name="PACKAGE_NAME" value="DataReader" />
+      <option name="MAIN_CLASS_NAME" value="DataReader.TestExcelSearch" />
+      <option name="METHOD_NAME" value="searchProductUsingExcel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -568,17 +548,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSignInUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestExcelSearch.searchProductUsingExcel (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ebay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomePage.*" />
+          <option name="PATTERN" value="DataReader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomePage" />
-      <option name="MAIN_CLASS_NAME" value="HomePage.TestSignInUser" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="DataReader" />
+      <option name="MAIN_CLASS_NAME" value="DataReader.TestExcelSearch" />
+      <option name="METHOD_NAME" value="searchProductUsingExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestExcelSearch.searchProductUsingExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataReader" />
+      <option name="MAIN_CLASS_NAME" value="DataReader.TestExcelSearch" />
+      <option name="METHOD_NAME" value="searchProductUsingExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -615,34 +614,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ebay" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Maven.run Maven" />
       <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml" />
       <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml" />
       <item itemvalue="TestNG./Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" />
-      <item itemvalue="TestNG.TestRegisterUser" />
-      <item itemvalue="TestNG.TestSearchEbay.searchItems" />
-      <item itemvalue="TestNG.TestSearchPage.testSearchPage" />
-      <item itemvalue="TestNG.TestSignInUser" />
-      <item itemvalue="TestNG./home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" />
+      <item itemvalue="TestNG.TestExcelSearch.searchProductUsingExcel" />
+      <item itemvalue="TestNG.TestExcelSearch.searchProdctUsingExcelInfo" />
+      <item itemvalue="TestNG.TestExcelSearch.searchProductUsingExcel (1)" />
+      <item itemvalue="TestNG.TestExcelSearch.searchProductUsingExcel (2)" />
+      <item itemvalue="TestNG.TestExcelSearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" />
-        <item itemvalue="TestNG.TestSearchPage.testSearchPage" />
-        <item itemvalue="TestNG.TestSignInUser" />
-        <item itemvalue="TestNG.TestSearchEbay.searchItems" />
-        <item itemvalue="TestNG.TestRegisterUser" />
+        <item itemvalue="TestNG.TestExcelSearch" />
+        <item itemvalue="TestNG.TestExcelSearch.searchProductUsingExcel (2)" />
+        <item itemvalue="TestNG.TestExcelSearch.searchProductUsingExcel" />
+        <item itemvalue="TestNG.TestExcelSearch.searchProductUsingExcel (1)" />
+        <item itemvalue="TestNG.TestExcelSearch.searchProdctUsingExcelInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -660,42 +649,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSearchEbay_searchItems - 2019.03.28 at 02h 22m 18s.xml">
-      <configuration name="TestSearchEbay.searchItems" configurationId="TestNG" />
+    <history-entry file="TestRegisterUser - 2019.03.31 at 03h 42m 33s.xml">
+      <configuration name="TestRegisterUser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSignInUser - 2019.03.28 at 02h 22m 30s.xml">
-      <configuration name="TestSignInUser" configurationId="TestNG" />
+    <history-entry file="TestRegisterUser - 2019.03.31 at 03h 43m 29s.xml">
+      <configuration name="TestRegisterUser" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchPage_testSearchPage - 2019.03.28 at 02h 22m 42s.xml">
+    <history-entry file="TestSearchPage_testSearchPage - 2019.03.31 at 16h 33m 39s.xml">
       <configuration name="TestSearchPage.testSearchPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.28 at 02h 23m 59s.xml">
-      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestExcelSearch_(1) - 2019.03.31 at 17h 06m 21s.xml">
+      <configuration name="TestExcelSearch (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.28 at 02h 25m 51s.xml">
-      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestExcelSearch_searchProductUsingExcel - 2019.03.31 at 17h 08m 59s.xml">
+      <configuration name="TestExcelSearch.searchProductUsingExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.30 at 00h 43m 18s.xml">
-      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestExcelSearch_searchProdctUsingExcelInfo - 2019.03.31 at 17h 11m 11s.xml">
+      <configuration name="TestExcelSearch.searchProdctUsingExcelInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.30 at 02h 19m 02s.xml">
-      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestExcelSearch_searchProductUsingExcel_(1) - 2019.03.31 at 17h 15m 27s.xml">
+      <configuration name="TestExcelSearch.searchProductUsingExcel (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.30 at 02h 21m 10s.xml">
-      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestExcelSearch_searchProductUsingExcel - 2019.03.31 at 17h 18m 26s.xml">
+      <configuration name="TestExcelSearch.searchProductUsingExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.30 at 02h 23m 42s.xml">
-      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestExcelSearch_searchProductUsingExcel_(2) - 2019.03.31 at 17h 43m 06s.xml">
+      <configuration name="TestExcelSearch.searchProductUsingExcel (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_stof_IdeaProjects_GroupWork_Ebay_src_main_resources_EbayTestRunner_xml - 2019.03.30 at 02h 42m 04s.xml">
-      <configuration name="/home/stof/IdeaProjects/GroupWork/Ebay/src/main/resources/EbayTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestExcelSearch - 2019.03.31 at 18h 04m 40s.xml">
+      <configuration name="TestExcelSearch" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="306" y="25" width="1221" height="598" extended-state="0" />
+    <frame x="0" y="27" width="1366" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27450982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -704,23 +702,23 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="DB Browser" order="7" weight="0.18110237" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" weight="0.19616205" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924126" weight="0.3280142" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8892261" weight="0.3492908" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924126" weight="0.39716312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924126" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996421" weight="0.8123667" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010737" side_tool="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996421" weight="0.32685512" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1107739" side_tool="true" weight="0.3492908" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49772382" weight="0.3280142" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.053003535" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24982105" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.2094082" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.03262519" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -790,33 +788,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestElectronicsSalesEvents.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestShopByCategory.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestExploreInterest.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayMotors/EbayMotors.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/PageEelement.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayMenu/ReadDropDownMenu.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/DataSource/DatabaseOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/DataSource/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/TestReadDropDownMenu.java" />
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/ReadDropDown.java" />
+    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" />
+    <entry file="file://$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml" />
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayElectronics/ShopByCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -831,23 +808,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/ExploreInterests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-481">
+        <state relative-caret-position="15">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/SalesEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/SellOnEbay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/TopBrands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayMotors/EbayMotors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/RegisterUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/SearchEbay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/SignInUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestShopByCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestShopElectronics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/SellOnEbay.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCatergory.java" />
-    <entry file="file://$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" />
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestExploreInterests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -869,19 +913,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestTopBrands.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/TestReadDropDownMenu.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/ReadDropDown.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/TestReadDropDown.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSignInUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -892,55 +934,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestTopBrands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="690">
+          <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayFashion/TestCategory.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/PageElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="2715">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayElectronics/TestShopByCategory.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestPageElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="66">
+          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/Category.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/target/test-classes/DataReader/TestExcelSearch.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="-362">
+          <folding>
+            <element signature="e#0#1658#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/DataReader/ExcelSearch.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayMenu/ReadDropDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" />
-    <entry file="file://$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" />
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/EbayMenu/TestReadDropDown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestRegisterUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="15">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="108" column="80" selection-start-line="108" selection-start-column="80" selection-end-line="108" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -951,115 +1054,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestSignInUser.java">
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/DataSource/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="232">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/DataReader/ExcelSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2865">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/DataSource/DatabaseOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataSource/TestSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/HomePage/TestPageElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/PageElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/SearchEbay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/SalesEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/SellOnEbay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayFashion/TopBrands.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayMenu/ReadDropDown.java">
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/DataReader/TestExcelSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/EbayMotors/EbayMotors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8072">
-          <caret line="554" selection-start-line="554" selection-end-line="554" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/SignInUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/HomePage/RegisterUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/resources/EbayTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="178">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
