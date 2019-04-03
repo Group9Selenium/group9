@@ -14,6 +14,8 @@
     <test name = "LinedIn Runner">
         <classes>
             <class name="TestLinkedIn"/>
+            <class name="TestLIPage"/>
+            <class name="TestLISheets"/>
         </classes>
     </test>
 

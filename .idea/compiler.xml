@@ -4,5 +4,20 @@
     <excludeFromCompile>
       <file url="file://$PROJECT_DIR$/Amazon/src/test/java/testAmazonPackage/TestAmazon.java" />
     </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Generic" />
+        <module name="Facebook" />
+        <module name="LinkedIn" />
+        <module name="Twitter" />
+        <module name="Youtube" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

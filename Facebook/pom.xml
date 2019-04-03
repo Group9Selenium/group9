@@ -23,7 +23,7 @@
                 <configuration>
                     <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     <suiteXmlFiles>
-                        <suiteXmlFile>/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>/Users/anour/GDrive/Projects/Intellij/Group9/Facebook/src/test/resources/faceBookRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

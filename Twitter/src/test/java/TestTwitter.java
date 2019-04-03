@@ -5,51 +5,103 @@ import reporting.TestLogger;
 
 import java.io.IOException;
 
-public class TestTwitter extends Twitter{
+public class TestTwitter extends Twitter {
     @Test
-    public  void runGetTitle(){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void runGetTitle() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         System.out.println(getTitle());
     }
 
     @Test
-    public  void runLogUp() throws InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void runGoHome() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        login();
+        goHomePage();
+    }
+
+    @Test
+    public void runLogUp() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         logup();
     }
 
     @Test
-    public  void runLogIn() throws Exception{
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void runLogIn() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         login();
     }
+
     @Test
-    public  void runLogout() throws InterruptedException{
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void runLogout() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         login();
         logout();
     }
+
     @Test
-    public  void runTopNavBar() throws InterruptedException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void runTopNavBar() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         login();
         getTopNavBar();
     }
+
     @Test
-    public  void runReadExcelFile() throws IOException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void runReadExcelFile() throws IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         readExcelFile();
     }
+
     @Test
-    public  void runClickTopNavBar() throws InterruptedException, IOException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void runClickTopNavBar() throws InterruptedException, IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         login();
         clickTopNavBar();
     }
+
     @Test
-    public void runClickMomentNavBar() throws Exception{
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void runClickMomentNavBar() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         login();
         clickMomentNavBar();
+    }
+
+    @Test
+    public void runSearchPeople() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        login();
+        searchPeople();
+    }
+    @Test
+    public void runSearchPhoto() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        login();
+        searchPhoto();
+    }
+
+    @Test
+    public void runSearchVideos() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        login();
+        searchVideos();
+    }
+
+    @Test
+    public void runSearchNews() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        login();
+        searchNews();
     }
 }

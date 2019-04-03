@@ -14,6 +14,8 @@
     <test name = "Facebook Runner">
         <classes>
             <class name="TestFaceBook"/>
+            <class name="TestFBPage"/>
+            <class name="TestFBSheets"/>
         </classes>
     </test>
 

@@ -71,7 +71,7 @@ public class LinkedIn extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         DataReader dr = new DataReader();
         List<String> list = new ArrayList<String>();
-        String path = "/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/main/data/Excel.xls";//System.getProperty("user.dir")+"/data/Excel.xl";
+        String path = "/Users/anour/GDrive/Projects/Intellij/Group9/LinkedIn/src/main/data/Excel.xls";//System.getProperty("user.dir")+"/data/Excel.xl";
         System.out.println(path);
         String[] data = dr.fileReader2(path, 0);
         for (int i = 1; i < data.length; i++) {
@@ -167,12 +167,13 @@ public class LinkedIn extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         driver.findElement(By.xpath("//*[@id='nav-settings__dropdown-trigger']")).click();
         Thread.sleep(2000);
-        List<WebElement> listWE= driver.findElements(By.xpath("//*[@id='nav-settings__dropdown-options']/li//li"));
-        for (WebElement wE: listWE
+        List<WebElement> listWE = driver.findElements(By.xpath("//*[@id='nav-settings__dropdown-options']/li//li"));
+        for (WebElement wE : listWE
         ) {
             System.out.println(wE.getText());
         }
     }
+
     public void clickDropDownListItems() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -180,10 +181,10 @@ public class LinkedIn extends CommonAPI {
         WebElement profileClick = driver.findElement(By.xpath("//*[@id='nav-settings__dropdown-trigger']"));
         profileClick.click();
         Thread.sleep(2000);
-        List<WebElement> listWE= driver.findElements(By.xpath("//*[@id='nav-settings__dropdown-options']/li//li"));
-        for (WebElement wE: listWE) {
+        List<WebElement> listWE = driver.findElements(By.xpath("//*[@id='nav-settings__dropdown-options']/li//li"));
+        for (WebElement wE : listWE) {
             wE.click();
-            for(String handle : driver.getWindowHandles()) {
+            for (String handle : driver.getWindowHandles()) {
                 if (!handle.equals(originalHandle)) {
                     driver.switchTo().window(handle);
                     Thread.sleep(500);

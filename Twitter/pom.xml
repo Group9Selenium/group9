@@ -30,7 +30,7 @@
                <configuration>
                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     <suiteXmlFiles>
-                        <suiteXmlFile>/Users/anour-mbp/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>/Users/anour/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

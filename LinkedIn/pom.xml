@@ -31,7 +31,7 @@
                 <configuration>
                     <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     <suiteXmlFiles>
-                        <suiteXmlFile>/Users/anour-mbp/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>/Users/anour/GDrive/Projects/Intellij/Group9/LinkedIn/src/test/resources/linkedInRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
