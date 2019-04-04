@@ -40,14 +40,176 @@ public class Youtube extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         driver.findElement(By.xpath("//*[@id='guide-icon']")).click();
     }
-    public void serachItems() throws Exception {
+
+    public void searchItems() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items= ConnectToSqlDB.readDataBase("ItemList","Items");
-        for (String str :items) {
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
-            }.getClass().getEnclosingMethod().getName())+", "+ str);
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void clickOnTrending() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        driver.findElement(By.xpath("//*[@id='guide-icon']")).click();
+        driver.findElement(By.xpath("(//a[@id='endpoint']/paper-item/span)[3]")).click();
+        Thread.sleep(500);
+    }
+
+    public void serachItemsLastHour() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Search for Last hour']/yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void serachItemsToday() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Search for Today']/yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void serachItemsThisWeek() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Search for This week']/yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void serachItemsThisMonth() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Search for This month']/yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void serachItemsThisYear() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Search for This year']/yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void serachItemsSortByRelevance() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Sort by relevance']/yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void serachItemsSortByUploadDate() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Sort by upload date']/yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void serachItemsSortByViewCount() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Sort by view count']/yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//input[@id='search']")).clear();
+        }
+    }
+
+    public void serachItemsSortByRating() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        for (String str : items) {
+            TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+            }.getClass().getEnclosingMethod().getName()) + ", " + str);
+            driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//div[@title='Sort by rating']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//input[@id='search']")).clear();
         }

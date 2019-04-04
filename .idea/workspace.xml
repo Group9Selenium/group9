@@ -2,56 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0992f674-0f55-4f59-b711-29ea3796475b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Facebook/tokens/StoredCredential" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedIn/tokens/StoredCredential" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Twitter/tokens/StoredCredential" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/YPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/YSheets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/main/java/Youtube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/TestYPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/TestYSheets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/java/TestYoutube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokens/StoredCredential" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitIgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitIgnore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/FBPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/FBPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/FBSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/FBSheets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/java/FaceBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/main/resources/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/main/resources/credentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/TestFBPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/TestFBPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/TestFBSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/TestFBSheets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/TestFaceBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/faceBookRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/resources/credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/resources/credentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/secret.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/LIPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/LIPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/LISheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/LISheets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/src/main/java/LinkedIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/TestLIPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/src/test/java/TestLIPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/TestLISheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/src/test/java/TestLISheets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/src/test/java/TestLinkedIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedIn/src/test/resources/linkedInRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/main/java/TPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/src/main/java/TPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/main/java/TSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/src/main/java/TSheets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/src/main/java/Twitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/test/java/TestTPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/src/test/java/TestTPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/test/java/TestTSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/src/test/java/TestTSheets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/src/test/java/TestTwitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter/src/test/resources/twitterRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/YPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/YPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/YSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/YSheets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/main/java/Youtube.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/main/java/Youtube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/TestYPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/java/TestYPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/TestYSheets.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/java/TestYSheets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Youtube/src/test/java/TestYoutube.java" beforeDir="false" afterPath="$PROJECT_DIR$/Youtube/src/test/java/TestYoutube.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Facebook/target/" />
@@ -71,15 +29,29 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/Youtube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#getTitle#0;class#Youtube#0" />
+                <element signature="method#goHomePage#0;class#Youtube#0" />
                 <element signature="method#getTopNavBar#0;class#Youtube#0" />
+                <element signature="method#clickSideMenu#0;class#Youtube#0" />
+                <element signature="method#searchItems#0;class#Youtube#0" />
+                <element signature="method#clickOnTrending#0;class#Youtube#0" />
+                <element signature="method#serachItemsLastHour#0;class#Youtube#0" />
+                <element signature="method#serachItemsToday#0;class#Youtube#0" />
+                <element signature="method#serachItemsThisWeek#0;class#Youtube#0" />
+                <element signature="method#serachItemsThisMonth#0;class#Youtube#0" />
+                <element signature="method#serachItemsThisYear#0;class#Youtube#0" />
+                <element signature="method#serachItemsThisYear#1;class#Youtube#0" />
+                <element signature="method#date#0;class#Youtube#0" />
+                <element signature="method#count#0;class#Youtube#0" />
+                <element signature="method#serachItemsSortByViewCount#1;class#Youtube#0" />
               </folding>
             </state>
           </provider>
@@ -88,10 +60,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/TestYoutube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="780">
+              <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#runGetTitle#0;class#TestYoutube#0" />
+                <element signature="method#runGohome#0;class#TestYoutube#0" />
+                <element signature="method#runGetTopNavBar#0;class#TestYoutube#0" />
+                <element signature="method#runClickSideMenu#0;class#TestYoutube#0" />
+                <element signature="method#runSearchItems#0;class#TestYoutube#0" />
+                <element signature="method#runClickOnTrending#0;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsLatsHour#0;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsLatsHour#1;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsToday#1;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsToday#2;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsToday#3;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsThisYear#1;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsThisYear#2;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsThisYear#3;class#TestYoutube#0" />
+                <element signature="method#runSearchItemsThisYear#4;class#TestYoutube#0" />
               </folding>
             </state>
           </provider>
@@ -100,10 +87,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/YPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="19">
+              <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#goHomePage#0;class#YPage#0" />
+                <element signature="method#getTopNavBar#0;class#YPage#0" />
+                <element signature="method#clickSideMenu#0;class#YPage#0" />
+                <element signature="method#serachItems#0;class#YPage#0" />
+                <element signature="method#clickOnTrending#0;class#YPage#0" />
+                <element signature="method#serachItemsLastHour#0;class#YPage#0" />
+                <element signature="method#serachItemsToday#0;class#YPage#0" />
+                <element signature="method#serachItemsThisWeek#0;class#YPage#0" />
+                <element signature="method#serachItemsThisMonth#0;class#YPage#0" />
+                <element signature="method#serachItemsThisYear#0;class#YPage#0" />
+                <element signature="method#serachItemsSortByRelevance#0;class#YPage#0" />
+                <element signature="method#serachItemsSortByUploadDate#0;class#YPage#0" />
+                <element signature="method#serachItemsSortByViewCount#0;class#YPage#0" />
+                <element signature="method#serachItemsSortByRating#0;class#YPage#0" />
               </folding>
             </state>
           </provider>
@@ -112,10 +113,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/TestYPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="589">
+              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#runGohome#0;class#TestYPage#0" />
+                <element signature="method#runGetTopNavBar#0;class#TestYPage#0" />
+                <element signature="method#runClickSideMenu#0;class#TestYPage#0" />
+                <element signature="method#runSearchItems#0;class#TestYPage#0" />
+                <element signature="method#runClickOnTrending#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsLastHour#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsToday#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsThisWeek#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsThisMonth#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsThisYear#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsSortByRelevance#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsSortByUploadDate#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsSortByViewCount#0;class#TestYPage#0" />
+                <element signature="method#runSearchItemsSortByRating#0;class#TestYPage#0" />
               </folding>
             </state>
           </provider>
@@ -124,23 +139,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/YSheets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="97" column="55" lean-forward="true" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="55" />
+            <state relative-caret-position="589">
+              <caret line="289" column="1" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#APPLICATION_NAME#0;n#YSheets#0" />
+                <element signature="method#serachItems#0;class#YSheets#0" />
+                <element signature="method#serachItemsLastHour#0;class#YSheets#0" />
+                <element signature="method#serachItemsToday#0;class#YSheets#0" />
+                <element signature="method#serachItemsThisWeek#0;class#YSheets#0" />
+                <element signature="method#serachItemsThisMonth#0;class#YSheets#0" />
+                <element signature="method#serachItemsThisYear#0;class#YSheets#0" />
+                <element signature="method#serachItemsSortByRelevance#0;class#YSheets#0" />
+                <element signature="method#serachItemsSortByUploadDate#0;class#YSheets#0" />
+                <element signature="method#serachItemsSortByViewCount#0;class#YSheets#0" />
+                <element signature="method#serachItemsSortByRating#0;class#YSheets#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/TestYSheets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#runSearchItems#0;class#TestYSheets#0" />
+                <element signature="method#runSearchItemsLastHour#0;class#TestYSheets#0" />
+                <element signature="method#runSearchItemsToday#0;class#TestYSheets#0" />
+                <element signature="method#runSearchItemsThisWeek#0;class#TestYSheets#0" />
+                <element signature="method#runSearchItemsThisMonth#0;class#TestYSheets#0" />
+                <element signature="method#runSearchItemsThisYear#0;class#TestYSheets#0" />
+                <element signature="class#2010:2030" />
+                <element signature="method#runSearchItemsSortByRelevance#0;class#TestYSheets#0" />
+                <element signature="method#runSearchItemsSortByUploadDate#0;class#TestYSheets#0" />
+                <element signature="method#runSearchItemsSortByViewCount#0;class#TestYSheets#0" />
+                <element signature="method#runSearchItemsSortByRating#0;class#TestYSheets#0" />
               </folding>
             </state>
           </provider>
@@ -150,7 +186,7 @@
         <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="39" />
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="16" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -167,9 +203,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>//input[@class ='search-input']</find>
+      <find>driver.findElement(By.xpath(&quot;//*[@aria-label='Search filters']//yt-formatted-string&quot;))</find>
+      <find>ConnectToSqlDB.readDataBase(&quot;ItemList&quot;, &quot;Items&quot;);</find>
+      <find>yPage</find>
     </findStrings>
     <replaceStrings>
       <replace>//*[@id='search-query']</replace>
+      <replace>searchEdit</replace>
+      <replace>sFilter</replace>
+      <replace>getDataFromGSheet(&quot;Items&quot;);</replace>
+      <replace>YSheets</replace>
+      <replace>ySheets</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -217,12 +261,12 @@
         <option value="$PROJECT_DIR$/Youtube/src/test/resources/twitterRunner.xml" />
         <option value="$PROJECT_DIR$/Youtube/pom.xml" />
         <option value="$PROJECT_DIR$/Youtube/src/test/resources/YoutubeRunner.xml" />
-        <option value="$PROJECT_DIR$/Youtube/src/main/java/Youtube.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/test/java/TestYoutube.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/main/java/YPage.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/test/java/TestYPage.java" />
-        <option value="$PROJECT_DIR$/Youtube/src/main/java/YSheets.java" />
         <option value="$PROJECT_DIR$/Youtube/src/test/java/TestYSheets.java" />
+        <option value="$PROJECT_DIR$/Youtube/src/main/java/YSheets.java" />
+        <option value="$PROJECT_DIR$/Youtube/src/test/java/TestYPage.java" />
+        <option value="$PROJECT_DIR$/Youtube/src/main/java/YPage.java" />
+        <option value="$PROJECT_DIR$/Youtube/src/test/java/TestYoutube.java" />
+        <option value="$PROJECT_DIR$/Youtube/src/main/java/Youtube.java" />
       </list>
     </option>
   </component>
@@ -257,7 +301,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1439" />
     <option name="height" value="834" />
@@ -291,6 +335,12 @@
               <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
               <item name="Youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group9" type="462c0819:PsiDirectoryNode" />
+              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,14 +363,6 @@
               <item name="Group9" type="462c0819:PsiDirectoryNode" />
               <item name="Youtube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -330,20 +372,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group9" type="462c0819:PsiDirectoryNode" />
-              <item name="Youtube" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -355,6 +388,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,42 +493,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.04.01 at 16h 09m 18s.xml">
-      <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Twitter_src_test_resources_twitterRunner_xml - 2019.04.01 at 16h 15m 18s.xml">
-      <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Twitter/src/test/resources/twitterRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 14h 31m 59s.xml">
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 15h 29m 56s.xml">
       <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 14h 32m 56s.xml">
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 15h 31m 27s.xml">
       <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 14h 36m 09s.xml">
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 15h 32m 27s.xml">
       <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 14h 40m 37s.xml">
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 15h 34m 05s.xml">
       <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 14h 48m 27s.xml">
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 15h 35m 24s.xml">
       <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 14h 50m 11s.xml">
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 15h 40m 49s.xml">
       <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 14h 55m 47s.xml">
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.04 at 09h 44m 52s.xml">
       <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.03 at 15h 04m 11s.xml">
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.04 at 10h 28m 05s.xml">
+      <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.04 at 10h 34m 22s.xml">
+      <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_anour_GDrive_Projects_Intellij_Group9_Youtube_src_test_resources_YoutubeRunner_xml - 2019.04.04 at 10h 47m 19s.xml">
       <configuration name="/Users/anour/GDrive/Projects/Intellij/Group9/Youtube/src/test/resources/YoutubeRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1439" height="834" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1439" height="833" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27415892" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.277738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -504,7 +537,7 @@
       <window_info id="DB Browser" order="7" weight="0.18110237" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.32928476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,13 +570,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage.java" />
     <entry file="file://$PROJECT_DIR$/LinkedIn/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1007,24 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/Youtube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getTopNavBar#0;class#Youtube#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/TestFBSheets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -1063,53 +1071,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/TestYoutube.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="650" selection-start-line="650" selection-end-line="650" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/YPage.java">
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/resources/YoutubeRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/TestYSheets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#runSearchItems#0;class#TestYSheets#0" />
+            <element signature="method#runSearchItemsLastHour#0;class#TestYSheets#0" />
+            <element signature="method#runSearchItemsToday#0;class#TestYSheets#0" />
+            <element signature="method#runSearchItemsThisWeek#0;class#TestYSheets#0" />
+            <element signature="method#runSearchItemsThisMonth#0;class#TestYSheets#0" />
+            <element signature="method#runSearchItemsThisYear#0;class#TestYSheets#0" />
+            <element signature="class#2010:2030" />
+            <element signature="method#runSearchItemsSortByRelevance#0;class#TestYSheets#0" />
+            <element signature="method#runSearchItemsSortByUploadDate#0;class#TestYSheets#0" />
+            <element signature="method#runSearchItemsSortByViewCount#0;class#TestYSheets#0" />
+            <element signature="method#runSearchItemsSortByRating#0;class#TestYSheets#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/YSheets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="97" column="55" lean-forward="true" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="55" />
+        <state relative-caret-position="589">
+          <caret line="289" column="1" selection-start-line="289" selection-start-column="1" selection-end-line="289" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#APPLICATION_NAME#0;n#YSheets#0" />
+            <element signature="method#serachItems#0;class#YSheets#0" />
+            <element signature="method#serachItemsLastHour#0;class#YSheets#0" />
+            <element signature="method#serachItemsToday#0;class#YSheets#0" />
+            <element signature="method#serachItemsThisWeek#0;class#YSheets#0" />
+            <element signature="method#serachItemsThisMonth#0;class#YSheets#0" />
+            <element signature="method#serachItemsThisYear#0;class#YSheets#0" />
+            <element signature="method#serachItemsSortByRelevance#0;class#YSheets#0" />
+            <element signature="method#serachItemsSortByUploadDate#0;class#YSheets#0" />
+            <element signature="method#serachItemsSortByViewCount#0;class#YSheets#0" />
+            <element signature="method#serachItemsSortByRating#0;class#YSheets#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/TestYPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="589">
+          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#runGohome#0;class#TestYPage#0" />
+            <element signature="method#runGetTopNavBar#0;class#TestYPage#0" />
+            <element signature="method#runClickSideMenu#0;class#TestYPage#0" />
+            <element signature="method#runSearchItems#0;class#TestYPage#0" />
+            <element signature="method#runClickOnTrending#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsLastHour#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsToday#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsThisWeek#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsThisMonth#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsThisYear#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsSortByRelevance#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsSortByUploadDate#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsSortByViewCount#0;class#TestYPage#0" />
+            <element signature="method#runSearchItemsSortByRating#0;class#TestYPage#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/TestYSheets.java">
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/YPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="19">
+          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#goHomePage#0;class#YPage#0" />
+            <element signature="method#getTopNavBar#0;class#YPage#0" />
+            <element signature="method#clickSideMenu#0;class#YPage#0" />
+            <element signature="method#serachItems#0;class#YPage#0" />
+            <element signature="method#clickOnTrending#0;class#YPage#0" />
+            <element signature="method#serachItemsLastHour#0;class#YPage#0" />
+            <element signature="method#serachItemsToday#0;class#YPage#0" />
+            <element signature="method#serachItemsThisWeek#0;class#YPage#0" />
+            <element signature="method#serachItemsThisMonth#0;class#YPage#0" />
+            <element signature="method#serachItemsThisYear#0;class#YPage#0" />
+            <element signature="method#serachItemsSortByRelevance#0;class#YPage#0" />
+            <element signature="method#serachItemsSortByUploadDate#0;class#YPage#0" />
+            <element signature="method#serachItemsSortByViewCount#0;class#YPage#0" />
+            <element signature="method#serachItemsSortByRating#0;class#YPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/test/java/TestYoutube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#runGetTitle#0;class#TestYoutube#0" />
+            <element signature="method#runGohome#0;class#TestYoutube#0" />
+            <element signature="method#runGetTopNavBar#0;class#TestYoutube#0" />
+            <element signature="method#runClickSideMenu#0;class#TestYoutube#0" />
+            <element signature="method#runSearchItems#0;class#TestYoutube#0" />
+            <element signature="method#runClickOnTrending#0;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsLatsHour#0;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsLatsHour#1;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsToday#1;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsToday#2;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsToday#3;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsThisYear#1;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsThisYear#2;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsThisYear#3;class#TestYoutube#0" />
+            <element signature="method#runSearchItemsThisYear#4;class#TestYoutube#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/src/main/java/Youtube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getTitle#0;class#Youtube#0" />
+            <element signature="method#goHomePage#0;class#Youtube#0" />
+            <element signature="method#getTopNavBar#0;class#Youtube#0" />
+            <element signature="method#clickSideMenu#0;class#Youtube#0" />
+            <element signature="method#searchItems#0;class#Youtube#0" />
+            <element signature="method#clickOnTrending#0;class#Youtube#0" />
+            <element signature="method#serachItemsLastHour#0;class#Youtube#0" />
+            <element signature="method#serachItemsToday#0;class#Youtube#0" />
+            <element signature="method#serachItemsThisWeek#0;class#Youtube#0" />
+            <element signature="method#serachItemsThisMonth#0;class#Youtube#0" />
+            <element signature="method#serachItemsThisYear#0;class#Youtube#0" />
+            <element signature="method#serachItemsThisYear#1;class#Youtube#0" />
+            <element signature="method#date#0;class#Youtube#0" />
+            <element signature="method#count#0;class#Youtube#0" />
+            <element signature="method#serachItemsSortByViewCount#1;class#Youtube#0" />
           </folding>
         </state>
       </provider>
