@@ -1,6 +1,5 @@
 import base.CommonAPI;
 import databases.ConnectToSqlDB;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -379,6 +378,5 @@ public class FBPage extends CommonAPI {
             tSearchJob.clear();
             Thread.sleep(500);
         }
-
     }
 }

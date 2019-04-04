@@ -12,13 +12,9 @@ import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.SheetsScopes;
 import com.google.api.services.sheets.v4.model.ValueRange;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 import java.io.IOException;
@@ -29,7 +25,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class LISheets extends CommonAPI{
+public class LISheets extends CommonAPI {
     //region Get The data from google sheat
     private static final String APPLICATION_NAME = "GSheetsStart";
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
@@ -93,9 +89,12 @@ public class LISheets extends CommonAPI{
     }
 
     //endregion
-    @FindBy(css = "#login-email" ) WebElement logEmail;
-    @FindBy(css = "#login-password" ) WebElement logPass;
-    @FindBy(css = "#login-submit" ) WebElement logSubmit;
+    @FindBy(css = "#login-email")
+    WebElement logEmail;
+    @FindBy(css = "#login-password")
+    WebElement logPass;
+    @FindBy(css = "#login-submit")
+    WebElement logSubmit;
 
     public void login() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
@@ -107,7 +106,10 @@ public class LISheets extends CommonAPI{
         System.out.println("Successfully logged in");
         Thread.sleep(1000);
     }
-    @FindBy (xpath = "//*[@id='extended-nav']/div/nav//li") List<WebElement> topNavBarList;
+
+    @FindBy(xpath = "//*[@id='extended-nav']/div/nav//li")
+    List<WebElement> topNavBarList;
+
     public void clickTopNavBartop() throws IOException, GeneralSecurityException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -121,8 +123,12 @@ public class LISheets extends CommonAPI{
         }
 
     }
-    @FindBy(xpath = "//*[@id='mynetwork-nav-item']") WebElement clickMyNetwork;
-    @FindBy(xpath = "//*[@id='nav-search-artdeco-typeahead']//input") WebElement tSearchMyNetwork;
+
+    @FindBy(xpath = "//*[@id='mynetwork-nav-item']")
+    WebElement clickMyNetwork;
+    @FindBy(xpath = "//*[@id='nav-search-artdeco-typeahead']//input")
+    WebElement tSearchMyNetwork;
+
     public void searchMyNetwork() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -137,8 +143,11 @@ public class LISheets extends CommonAPI{
         }
     }
 
-    @FindBy (xpath = "//*[@id='messaging-nav-item']") WebElement clickMyMessaging;
-    @FindBy (xpath = "//*[@id='search-conversations']") WebElement tSearchMessaging;
+    @FindBy(xpath = "//*[@id='messaging-nav-item']")
+    WebElement clickMyMessaging;
+    @FindBy(xpath = "//*[@id='search-conversations']")
+    WebElement tSearchMessaging;
+
     public void searchMyMessages() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -153,9 +162,13 @@ public class LISheets extends CommonAPI{
         }
     }
 
-    @FindBy (xpath = "//*[@id='jobs-nav-item']") WebElement clickJobs;
-    @FindBy (xpath = "//input[@placeholder='Search jobs']") WebElement tSearchJobs;
-    @FindBy (xpath = "//input[@placeholder='Search location']") WebElement tSearchLocation;
+    @FindBy(xpath = "//*[@id='jobs-nav-item']")
+    WebElement clickJobs;
+    @FindBy(xpath = "//input[@placeholder='Search jobs']")
+    WebElement tSearchJobs;
+    @FindBy(xpath = "//input[@placeholder='Search location']")
+    WebElement tSearchLocation;
+
     public void searchJobs() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -175,7 +188,7 @@ public class LISheets extends CommonAPI{
     public List<String> getTopNavBar() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> list =new ArrayList<>();
+        List<String> list = new ArrayList<>();
         for (WebElement wE : topNavBarList) {
             list.add(wE.getText());
         }

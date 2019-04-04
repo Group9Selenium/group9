@@ -1,6 +1,5 @@
 import base.CommonAPI;
 import databases.ConnectToSqlDB;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -137,7 +136,7 @@ public class TPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         clickMoments.click();
         for (WebElement wE : momentsList) {
-            if(! wE.getText().equals("Sports")) wE.click();
+            if (!wE.getText().equals("Sports")) wE.click();
             Thread.sleep(1000);
         }
     }

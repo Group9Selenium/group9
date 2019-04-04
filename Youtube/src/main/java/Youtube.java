@@ -44,7 +44,7 @@ public class Youtube extends CommonAPI {
     public void searchItems() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -65,13 +65,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsLastHour() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Search for Last hour']/yt-formatted-string")).click();
             Thread.sleep(500);
@@ -82,13 +82,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsToday() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Search for Today']/yt-formatted-string")).click();
             Thread.sleep(500);
@@ -99,13 +99,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsThisWeek() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Search for This week']/yt-formatted-string")).click();
             Thread.sleep(500);
@@ -116,13 +116,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsThisMonth() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Search for This month']/yt-formatted-string")).click();
             Thread.sleep(500);
@@ -133,13 +133,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsThisYear() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Search for This year']/yt-formatted-string")).click();
             Thread.sleep(500);
@@ -150,13 +150,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsSortByRelevance() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Sort by relevance']/yt-formatted-string")).click();
             Thread.sleep(500);
@@ -167,13 +167,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsSortByUploadDate() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Sort by upload date']/yt-formatted-string")).click();
             Thread.sleep(500);
@@ -184,13 +184,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsSortByViewCount() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Sort by view count']/yt-formatted-string")).click();
             Thread.sleep(500);
@@ -201,13 +201,13 @@ public class Youtube extends CommonAPI {
     public void serachItemsSortByRating() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
             driver.findElement(By.xpath("//input[@id='search']")).sendKeys(str, Keys.ENTER);
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@aria-label='Search filters']//yt-formatted-string")).click();
+            driver.findElement(By.xpath("//paper-button[@aria-label='Search filters']/yt-formatted-string")).click();
             Thread.sleep(500);
             driver.findElement(By.xpath("//div[@title='Sort by rating']/yt-formatted-string")).click();
             Thread.sleep(500);

@@ -1,6 +1,5 @@
 import base.CommonAPI;
 import databases.ConnectToSqlDB;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

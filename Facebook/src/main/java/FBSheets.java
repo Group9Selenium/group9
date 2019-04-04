@@ -12,12 +12,10 @@ import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.SheetsScopes;
 import com.google.api.services.sheets.v4.model.ValueRange;
-import databases.ConnectToSqlDB;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
-import utility.DataReader;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -111,8 +109,9 @@ public class FBSheets extends CommonAPI {
         System.out.println("Successfully logged in");
         Thread.sleep(500);
         try {
-            if (closePup.isDisplayed()) closePup.click();;
-        }catch (Exception e){
+            if (closePup.isDisplayed()) closePup.click();
+            ;
+        } catch (Exception e) {
             System.out.println("Ther Is No Pappup Form");
         }
 
@@ -248,9 +247,9 @@ public class FBSheets extends CommonAPI {
         return list;
     }
 
-
     @FindBy(xpath = "//*[@class='_k01 _1itu _2pi2']")
     List<WebElement> marketPlaceLeftNav;
+
     public List<String> marketplaceNavBar() throws Exception {
         List<String> list = new ArrayList<String>();
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
@@ -262,6 +261,7 @@ public class FBSheets extends CommonAPI {
         }
         return list;
     }
+
     @FindBy(xpath = "//*[@id='appsNav']/ul/li[22]/a")
     WebElement showAllLetNavButtom;
     @FindBy(xpath = "//*[@id='navItem_977114232337111']/a/div")
@@ -270,6 +270,7 @@ public class FBSheets extends CommonAPI {
     WebElement tSearchJob;
     @FindBy(xpath = "//div [@class ='_4llw _2pi2 uiInputLabel clearfix']")
     WebElement cBoxFulltime;
+
     public void clickMarketplaceNavBar() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -306,6 +307,7 @@ public class FBSheets extends CommonAPI {
             }
         }
     }
+
     public void searchJobs() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -322,7 +324,6 @@ public class FBSheets extends CommonAPI {
             tSearchJob.clear();
             Thread.sleep(500);
         }
-
     }
 }
 

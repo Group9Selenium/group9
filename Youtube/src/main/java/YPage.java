@@ -50,7 +50,7 @@ public class YPage extends CommonAPI {
     public void serachItems() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -72,7 +72,7 @@ public class YPage extends CommonAPI {
         Thread.sleep(500);
     }
 
-    @FindBy(xpath = "//*[@aria-label='Search filters']//yt-formatted-string")
+    @FindBy(xpath = "//paper-button[@aria-label='Search filters']/yt-formatted-string")
     WebElement sFilter;
     @FindBy(xpath = "//div[@title='Search for Last hour']/yt-formatted-string")
     WebElement lastHour;
@@ -80,7 +80,7 @@ public class YPage extends CommonAPI {
     public void serachItemsLastHour() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -100,7 +100,7 @@ public class YPage extends CommonAPI {
     public void serachItemsToday() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -120,7 +120,7 @@ public class YPage extends CommonAPI {
     public void serachItemsThisWeek() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -140,7 +140,7 @@ public class YPage extends CommonAPI {
     public void serachItemsThisMonth() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -160,7 +160,7 @@ public class YPage extends CommonAPI {
     public void serachItemsThisYear() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -180,7 +180,7 @@ public class YPage extends CommonAPI {
     public void serachItemsSortByRelevance() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -200,7 +200,7 @@ public class YPage extends CommonAPI {
     public void serachItemsSortByUploadDate() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -220,7 +220,7 @@ public class YPage extends CommonAPI {
     public void serachItemsSortByViewCount() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);
@@ -240,7 +240,7 @@ public class YPage extends CommonAPI {
     public void serachItemsSortByRating() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> items = ConnectToSqlDB.readDataBase("ItemList", "Items");
+        List<String> items = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         for (String str : items) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + str);

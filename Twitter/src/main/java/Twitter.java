@@ -1,10 +1,8 @@
 import base.CommonAPI;
 import databases.ConnectToSqlDB;
-import org.apache.poi.ss.formula.ThreeDEval;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 import utility.DataReader;
 
@@ -117,7 +115,7 @@ public class Twitter extends CommonAPI {
         driver.findElement(By.xpath("//*[@data-component-context='moments_nav']")).click();
         List<WebElement> wEList = driver.findElements(By.xpath("//*[@class='MomentGuideNavigation-categories']/li"));
         for (WebElement wE : wEList) {
-            if(! wE.getText().equals("Sports")) wE.click();
+            if (!wE.getText().equals("Sports")) wE.click();
             Thread.sleep(1000);
         }
     }

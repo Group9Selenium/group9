@@ -1,6 +1,5 @@
 import base.CommonAPI;
 import databases.ConnectToSqlDB;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,8 +17,12 @@ public class LIPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         return driver.getTitle().equals("LinkedIn: Log In or Sign Up");
     }
-    @FindBy(xpath = "//*[@id='nav-settings__dropdown-trigger']" ) WebElement profileDropDown;
-    @FindBy(xpath = "//ul[@id='nav-settings__dropdown-options']/li[5]/ul/li/a" ) WebElement logoutClick;
+
+    @FindBy(xpath = "//*[@id='nav-settings__dropdown-trigger']")
+    WebElement profileDropDown;
+    @FindBy(xpath = "//ul[@id='nav-settings__dropdown-options']/li[5]/ul/li/a")
+    WebElement logoutClick;
+
     public void logout() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -34,9 +37,13 @@ public class LIPage extends CommonAPI {
         }
 
     }
-    @FindBy(css = "#login-email" ) WebElement logEmail;
-    @FindBy(css = "#login-password" ) WebElement logPass;
-    @FindBy(css = "#login-submit" ) WebElement logSubmit;
+
+    @FindBy(css = "#login-email")
+    WebElement logEmail;
+    @FindBy(css = "#login-password")
+    WebElement logPass;
+    @FindBy(css = "#login-submit")
+    WebElement logSubmit;
 
     public void login() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
@@ -48,13 +55,19 @@ public class LIPage extends CommonAPI {
         System.out.println("Successfully logged in");
         Thread.sleep(1000);
     }
-    @FindBy (css = "#feed-tab-icon") WebElement homeFeed;
+
+    @FindBy(css = "#feed-tab-icon")
+    WebElement homeFeed;
+
     public void goHomePage() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         homeFeed.click();
     }
-    @FindBy (xpath = "//*[@id='extended-nav']/div/nav//li") List<WebElement> topNavBarList;
+
+    @FindBy(xpath = "//*[@id='extended-nav']/div/nav//li")
+    List<WebElement> topNavBarList;
+
     public void getTopNavBar() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -91,8 +104,12 @@ public class LIPage extends CommonAPI {
         }
 
     }
-    @FindBy(xpath = "//*[@id='mynetwork-nav-item']") WebElement clickMyNetwork;
-    @FindBy(xpath = "//*[@id='nav-search-artdeco-typeahead']//input") WebElement tSearchMyNetwork;
+
+    @FindBy(xpath = "//*[@id='mynetwork-nav-item']")
+    WebElement clickMyNetwork;
+    @FindBy(xpath = "//*[@id='nav-search-artdeco-typeahead']//input")
+    WebElement tSearchMyNetwork;
+
     public void searchMyNetwork() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -107,8 +124,11 @@ public class LIPage extends CommonAPI {
         }
     }
 
-    @FindBy (xpath = "//*[@id='messaging-nav-item']") WebElement clickMyMessaging;
-    @FindBy (xpath = "//*[@id='search-conversations']") WebElement tSearchMessaging;
+    @FindBy(xpath = "//*[@id='messaging-nav-item']")
+    WebElement clickMyMessaging;
+    @FindBy(xpath = "//*[@id='search-conversations']")
+    WebElement tSearchMessaging;
+
     public void searchMyMessages() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -123,9 +143,13 @@ public class LIPage extends CommonAPI {
         }
     }
 
-    @FindBy (xpath = "//*[@id='jobs-nav-item']") WebElement clickJobs;
-    @FindBy (xpath = "//input[@placeholder='Search jobs']") WebElement tSearchJobs;
-    @FindBy (xpath = "//input[@placeholder='Search location']") WebElement tSearchLocation;
+    @FindBy(xpath = "//*[@id='jobs-nav-item']")
+    WebElement clickJobs;
+    @FindBy(xpath = "//input[@placeholder='Search jobs']")
+    WebElement tSearchJobs;
+    @FindBy(xpath = "//input[@placeholder='Search location']")
+    WebElement tSearchLocation;
+
     public void searchJobs() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -142,8 +166,11 @@ public class LIPage extends CommonAPI {
         }
     }
 
-    @FindBy (xpath = "//*[@class='share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold']") WebElement clickUploadFile;
-    @FindBy (xpath = "//div[@class='share-box-media-upload display-flex align-items-center flex-1']/div") List<WebElement> uploadFileOptions;
+    @FindBy(xpath = "//*[@class='share-box__open share-box__trigger p4 hoverable-link-text t-16 t-black--light t-bold']")
+    WebElement clickUploadFile;
+    @FindBy(xpath = "//div[@class='share-box-media-upload display-flex align-items-center flex-1']/div")
+    List<WebElement> uploadFileOptions;
+
     public void uploadFile() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -155,7 +182,9 @@ public class LIPage extends CommonAPI {
         }
     }
 
-    @FindBy (xpath = "//*[@name='firstName']") WebElement logUpFirtsName;
+    @FindBy(xpath = "//*[@name='firstName']")
+    WebElement logUpFirtsName;
+
     public void logup() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -166,7 +195,9 @@ public class LIPage extends CommonAPI {
         Thread.sleep(1000);
     }
 
-    @FindBy (xpath = "//*[@id='nav-settings__dropdown-options']/li//li") List<WebElement> profileDropDownList;
+    @FindBy(xpath = "//*[@id='nav-settings__dropdown-options']/li//li")
+    List<WebElement> profileDropDownList;
+
     public void dropDownListItems() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -196,4 +227,5 @@ public class LIPage extends CommonAPI {
             profileDropDown.click();
             Thread.sleep(1000);
         }
-    }}
+    }
+}

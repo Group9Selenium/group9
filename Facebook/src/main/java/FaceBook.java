@@ -26,10 +26,11 @@ public class FaceBook extends CommonAPI {
         //driver.findElement(By.xpath("//*[@id='u_0_2']")).click();
         System.out.println("Successfully logged in");
         Thread.sleep(500);
-        try{
-        if (driver.findElement(By.xpath("//*[@class='_51-u']")).isDisplayed()) {
-            driver.findElement(By.xpath("//*[@class='_51-u']")).click();
-        }}catch (Exception e){
+        try {
+            if (driver.findElement(By.xpath("//*[@class='_51-u']")).isDisplayed()) {
+                driver.findElement(By.xpath("//*[@class='_51-u']")).click();
+            }
+        } catch (Exception e) {
             System.out.println("Ther Is No PapPup form");
         }
     }
@@ -85,8 +86,10 @@ public class FaceBook extends CommonAPI {
         System.out.println("Successfully logged in");
         Thread.sleep(500);
         try {
-            if (driver.findElement(By.cssSelector(".layerCancel")).isDisplayed()) driver.findElement(By.cssSelector(".layerCancel")).click();;
-        }catch (Exception e){
+            if (driver.findElement(By.cssSelector(".layerCancel")).isDisplayed())
+                driver.findElement(By.cssSelector(".layerCancel")).click();
+            ;
+        } catch (Exception e) {
             System.out.println("Ther Is No Pappup Form");
         }
         Thread.sleep(500);
@@ -313,19 +316,18 @@ public class FaceBook extends CommonAPI {
     public void searchJobs() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        List<String> btnAction = ConnectToSqlDB.readDataBase("Jobs","JobTitle");
+        List<String> btnAction = ConnectToSqlDB.readDataBase("Jobs", "JobTitle");
         login();
         driver.findElement(By.xpath("//*[@id='appsNav']/ul/li[22]/a")).click();
         driver.findElement(By.xpath("//*[@id='navItem_977114232337111']/a/div")).click();
-        for (String job:btnAction) {
+        for (String job : btnAction) {
             TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()) + ", " + job);
             driver.findElement(By.xpath("//div [@class ='_4llw _2pi2 uiInputLabel clearfix']")).click();
-            driver.findElement(By.xpath("//input[@placeholder='Search jobs']")).sendKeys(job,Keys.ENTER);
+            driver.findElement(By.xpath("//input[@placeholder='Search jobs']")).sendKeys(job, Keys.ENTER);
             Thread.sleep(1000);
             driver.findElement(By.xpath("//input[@placeholder='Search jobs']")).clear();
             Thread.sleep(500);
         }
-
     }
 }
