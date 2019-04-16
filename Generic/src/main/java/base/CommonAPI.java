@@ -36,7 +36,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
-    //Extent Report Listener
+    //region Extent Report Listener
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -88,7 +88,7 @@ public class CommonAPI {
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
-
+    //endregion
     //WebDriver Instance
     public static WebDriver driver = null;
     public String browserstack_username= "noureddinearouss1";

@@ -11,9 +11,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
         <module name="Facebook" />
-        <module name="LinkedIn" />
-        <module name="Twitter" />
         <module name="Youtube" />
+        <module name="RestAPI" />
+        <module name="Twitter" />
+        <module name="LinkedIn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
